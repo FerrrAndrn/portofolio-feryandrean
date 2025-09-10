@@ -1,5 +1,9 @@
 @import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/effect-coverflow";
+@import "swiper/css/navigation";
 
+/* 🎨 Variabel Warna */
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -19,8 +23,86 @@
   }
 }
 
+/* 🖌️ Global Body */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins, Arial, Helvetica, sans-serif);
+  top: 0px !important; /* supaya Google Translate gak geser layout */
+}
+
+/* ❄️ Snow Effect */
+.snowfall {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.snowflake {
+  position: absolute;
+  top: -10px;
+  background: white;
+  opacity: 0.8;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: fall linear infinite;
+}
+
+.snowflake.thick { width: 12px; height: 12px; animation-duration: 12s; }
+.snowflake.medium { width: 7px; height: 7px; animation-duration: 15s; }
+.snowflake.thin { width: 5px; height: 5px; animation-duration: 20s; }
+
+@keyframes fall {
+  0%   { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(100vh); opacity: 0; }
+}
+
+/* ✨ Animasi Teks Putih ↔ Gold */
+.animated-text {
+  display: inline-block;
+  animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0%, 20%   { color: #FFD700; } /* gold */
+  20%, 100% { color: white; }   /* putih */
+}
+
+/* 🚀 Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 40px; /* biar section gak ketutup navbar */
+}
+
+/* 🔥 Google Translate Widget Custom */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  font-size: 0 !important; /* ilangin teks bawaan */
+}
+
+.goog-te-gadget img,
+.goog-te-gadget span {
+  display: none !important; /* ilangin logo & teks bawaan */
+}
+
+#google_translate_element select {
+  background: linear-gradient(to right, #001f3f, #003366, #001f3f);
+  color: white;
+  border-radius: 0.5rem;
+  padding: 4px 8px;
+  border: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+#google_translate_element select:hover {
+  opacity: 0.9;
 }
