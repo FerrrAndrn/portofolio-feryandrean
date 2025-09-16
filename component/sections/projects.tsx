@@ -22,26 +22,19 @@ interface ProjectItem {
     overview?: string;
     features?: Record<string, string[]> | string[];
     documentation?: string[];
-    license?:
-      | string
-      | {
-          text?: string;
-          image?: string;
-          images?: string[];
-        };
+    license?: {
+      text?: string;
+      image?: string;
+    };
   };
 }
 
 export default function Projects() {
   const { t } = useLanguage();
-  const projects: ProjectItem[] =
-    (t("projectsSection.items") as ProjectItem[]) || [];
+  const projects: ProjectItem[] = (t("projectsSection.items") as ProjectItem[]) || [];
 
   const [openItem, setOpenItem] = useState<ProjectItem | null>(null);
-  const [zoomGallery, setZoomGallery] = useState<{
-    images: string[];
-    index: number;
-  } | null>(null);
+  const [zoomGallery, setZoomGallery] = useState<{ images: string[]; index: number } | null>(null);
 
   useEffect(() => {
     if (openItem || zoomGallery) {
@@ -93,10 +86,7 @@ export default function Projects() {
         }}
       >
         {projects.map((p, i) => (
-          <SwiperSlide
-            key={i}
-            className="!w-[380px] flex justify-center overflow-visible"
-          >
+          <SwiperSlide key={i} className="!w-[380px] flex justify-center overflow-visible">
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -110,11 +100,7 @@ export default function Projects() {
                 hover:z-[50]"
             >
               <div className="flex-grow flex items-center justify-center w-full mb-3">
-                <img
-                  src={p.image}
-                  alt={p.name}
-                  className="max-h-16 max-w-full object-contain"
-                />
+                <img src={p.image} alt={p.name} className="max-h-16 max-w-full object-contain" />
               </div>
 
               <p className="text-lg text-gray-800 mb-3">{p.year}</p>
@@ -168,14 +154,10 @@ export default function Projects() {
                       className="w-20 h-20 object-contain drop-shadow"
                     />
                     <div>
-                      <h2 className="text-lg font-bold text-[#001f3f]">
-                        {openItem.name}
-                      </h2>
+                      <h2 className="text-lg font-bold text-[#001f3f]">{openItem.name}</h2>
                       <p className="text-sm text-gray-600">{openItem.year}</p>
                       {openItem.description && (
-                        <p className="text-sm text-gray-600">
-                          {openItem.description}
-                        </p>
+                        <p className="text-sm text-gray-600">{openItem.description}</p>
                       )}
                     </div>
                   </div>
@@ -196,20 +178,16 @@ export default function Projects() {
                       <h4 className="font-bold text-[#001f3f] mb-4 text-center uppercase">
                         {t("features")}
                       </h4>
-                      {Object.entries(openItem.details.features).map(
-                        ([category, list], idx) => (
-                          <div key={idx} className="mb-4">
-                            <p className="font-semibold text-gray-800">
-                              {category}
-                            </p>
-                            <ul className="list-disc pl-5 space-y-2 text-gray-700">
-                              {(list as string[]).map((f, i2) => (
-                                <li key={i2}>{f}</li>
-                              ))}
-                            </ul>
-                          </div>
-                        )
-                      )}
+                      {Object.entries(openItem.details.features).map(([category, list], idx) => (
+                        <div key={idx} className="mb-4">
+                          <p className="font-semibold text-gray-800">{category}</p>
+                          <ul className="list-disc pl-5 space-y-2 text-gray-700">
+                            {(list as string[]).map((f, i2) => (
+                              <li key={i2}>{f}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
                     </div>
                   )}
 
@@ -252,63 +230,30 @@ export default function Projects() {
                     )}
 
                   {openItem.details?.license && (
-                    <div className="border-t border-gray-300 pt-6 mt-6">
+                    <div className="border-t border-gray-300 pt-6 mt-6 text-center">
                       <h4 className="font-bold text-[#001f3f] mb-4 text-center uppercase">
                         {t("license")}
                       </h4>
 
-                      {typeof openItem.details.license === "string" && (
-                        <p className="text-gray-700">
-                          {openItem.details.license}
-                        </p>
+                      {openItem.details.license.text && (
+                        <p className="text-gray-700 mb-4">{openItem.details.license.text}</p>
                       )}
 
-                      {typeof openItem.details.license === "object" && (
-                        <div className="flex flex-col items-center gap-4">
-                          {openItem.details.license.text && (
-                            <p className="text-gray-700">
-                              {openItem.details.license.text}
-                            </p>
-                          )}
-
-                          {openItem.details.license.image && (
-                            <img
-                              src={openItem.details.license.image}
-                              alt="HKI License"
-                              className="max-w-xs w-full object-contain cursor-zoom-in"
-                              onClick={() =>
-                                setZoomGallery({
-                                  images: [openItem.details?.license?.image || ""],
-                                  index: 0,
-                                })
-                              }
-                            />
-                          )}
-
-                          {openItem.details.license.images &&
-                            openItem.details.license.images.length > 0 && (
-                              <div className="grid grid-cols-2 gap-4">
-                                {openItem.details.license.images.map(
-                                  (img, idx) => (
-                                    <img
-                                      key={idx}
-                                      src={img}
-                                      alt={`HKI License ${idx + 1}`}
-                                      className="max-w-xs w-full object-contain cursor-zoom-in"
-                                      onClick={() =>
-                                        setZoomGallery({
-                                          images:
-                                            openItem.details?.license?.images ||
-                                            [],
-                                          index: idx,
-                                        })
-                                      }
-                                    />
-                                  )
-                                )}
-                              </div>
-                            )}
-                        </div>
+                      {openItem.details.license.image && (
+                        <motion.img
+                          src={openItem.details.license.image}
+                          alt="HKI License"
+                          className="max-w-xs w-full object-contain cursor-zoom-in mx-auto"
+                          initial={{ opacity: 0, scale: 0.95 }}
+                          animate={{ opacity: 1, scale: 1 }}
+                          transition={{ duration: 0.3 }}
+                          onClick={() =>
+                            setZoomGallery({
+                              images: [openItem.details?.license?.image || ""],
+                              index: 0,
+                            })
+                          }
+                        />
                       )}
                     </div>
                   )}
@@ -332,14 +277,14 @@ export default function Projects() {
                 <div className="relative w-full max-w-6xl h-[90vh]">
                   <button
                     onClick={() => setZoomGallery(null)}
-                     className="absolute -top-1 right-4 z-50 flex items-center justify-center gap-2
+                    className="absolute -top-1 right-4 z-50 flex items-center justify-center gap-2
                               px-3 py-1 rounded-full bg-white text-black font-semibold text-sm
                               shadow-lg shadow-black/40
                               transition-all duration-300 ease-in-out
                               hover:brightness-90 hover:scale-110 hover:shadow-xl active:scale-95"
-                              >
-                  {t("close")}
-                  <span className="font-extrabold text-base">✕</span>
+                  >
+                    {t("close")}
+                    <span className="font-extrabold text-base">✕</span>
                   </button>
                   <Swiper
                     initialSlide={zoomGallery.index}
