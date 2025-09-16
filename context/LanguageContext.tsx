@@ -12,7 +12,7 @@ const translations = { en, id, ko, ja };
 type LanguageContextType = {
   lang: Locale;
   setLang: (lang: Locale) => void;
-  t: (key: string) => string;
+  t: (key: string) => any;
 };
 
 const LanguageContext = createContext<LanguageContextType | null>(null);
@@ -24,16 +24,16 @@ interface LanguageProviderProps {
 export function LanguageProvider({ children }: LanguageProviderProps) {
   const [lang, setLang] = useState<Locale>("en");
 
-  const t = (key: string): string => {
+  const t = (key: string): any => {
     const parts = key.replace(/\[(\d+)\]/g, ".$1").split(".");
     let value: any = translations[lang];
 
     for (const part of parts) {
-      if (value == null) return key;
+      if (value == null) return undefined; // ✅ return undefined kalau gak ketemu
       value = value[part];
     }
 
-    return typeof value === "string" ? value : key;
+    return value;
   };
 
   return (
