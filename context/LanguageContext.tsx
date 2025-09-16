@@ -1,4 +1,5 @@
 "use client";
+
 import { createContext, useContext, useState, ReactNode } from "react";
 import en from "@/locales/en.json";
 import id from "@/locales/id.json";
@@ -11,15 +12,19 @@ const translations = { en, id, ko, ja };
 type LanguageContextType = {
   lang: Locale;
   setLang: (lang: Locale) => void;
-  t: (key: string) => any;
+  t: (key: string) => string;
 };
 
 const LanguageContext = createContext<LanguageContextType | null>(null);
 
-export function LanguageProvider({ children }: { children: ReactNode }) {
+interface LanguageProviderProps {
+  children: ReactNode;
+}
+
+export function LanguageProvider({ children }: LanguageProviderProps) {
   const [lang, setLang] = useState<Locale>("en");
 
-  const t = (key: string): any => {
+  const t = (key: string): string => {
     const parts = key.replace(/\[(\d+)\]/g, ".$1").split(".");
     let value: any = translations[lang];
 
@@ -28,7 +33,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       value = value[part];
     }
 
-    return value ?? key;
+    return typeof value === "string" ? value : key;
   };
 
   return (

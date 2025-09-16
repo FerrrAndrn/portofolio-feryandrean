@@ -1,11 +1,11 @@
 "use client";
 
-import { LanguageProvider } from "@/context/LanguageContext";
+import { LanguageProvider, useLanguage } from "@/context/LanguageContext";
 import LanguageSwitcher from "@/component/LanguageSwitcher";
-import { useLanguage } from "@/context/LanguageContext";
 
 function HtmlWrapper({ children }: { children: React.ReactNode }) {
-  const { language } = useLanguage();
+  const { lang: language } = useLanguage();
+
   return (
     <>
       <div className="fixed top-4 right-4 z-50">
