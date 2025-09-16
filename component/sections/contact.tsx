@@ -10,7 +10,7 @@ export default function Contact() {
   const contacts = contactSection.contacts || [];
 
   return (
-    <Section id="contact">
+    <Section id="contact" title={""}>
       <div className="text-center -mt-10">
         <h2 className="text-3xl font-bold text-[#001f3f]">
           {contactSection.title}
