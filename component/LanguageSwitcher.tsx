@@ -1,89 +1,70 @@
 "use client";
-
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { useLanguage } from "@/context/LanguageContext";
 import ReactCountryFlag from "react-country-flag";
+import { ChevronDown } from "lucide-react";
 
-const languages = [
-  { code: "en", country: "US", label: "English" },
-  { code: "id", country: "ID", label: "Indonesia" },
-  { code: "ko", country: "KR", label: "한국어" },
-  { code: "ja", country: "JP", label: "日本語" },
+const langs = [
+  { code: "en", label: "English", flag: "US" },
+  { code: "id", label: "Indonesia", flag: "ID" },
+  { code: "ko", label: "한국어", flag: "KR" },
+  { code: "ja", label: "日本語", flag: "JP" },
 ];
 
 export default function LanguageSwitcher() {
-  const [currentLang, setCurrentLang] = useState(languages[0]); // default English
+  const { lang, setLang } = useLanguage();
   const [open, setOpen] = useState(false);
 
-  useEffect(() => {
-    (window as any).googleTranslateElementInit = () => {
-      new (window as any).google.translate.TranslateElement(
-        {
-          pageLanguage: "en",
-          includedLanguages: "en,id,ko,ja",
-          autoDisplay: false,
-        },
-        "google_translate_element"
-      );
-    };
-
-    const script = document.createElement("script");
-    script.src =
-      "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
-  const changeLang = (lang: { code: string; country: string; label: string }) => {
-    const select = document.querySelector<HTMLSelectElement>(".goog-te-combo");
-    if (select) {
-      select.value = lang.code;
-      select.dispatchEvent(new Event("change"));
-      setCurrentLang(lang); // update label & flag
-      setOpen(false); // tutup menu
-    }
-  };
+  const current = langs.find((l) => l.code === lang)!;
 
   return (
     <div className="relative">
-      {/* Hidden Google Translate */}
-      <div id="google_translate_element" className="hidden"></div>
-
-      {/* Tombol bahasa aktif */}
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-2 px-3 py-1 rounded-md bg-white shadow hover:bg-gray-100 transition"
+        className="flex items-center justify-between gap-2 px-3 py-2 rounded-md 
+                   bg-[#001f3f] text-white text-sm font-medium 
+                   hover:bg-[#003366]/80 transition min-w-[120px]"
       >
-        <ReactCountryFlag
-          countryCode={currentLang.country}
-          svg
-          style={{ width: "1.5em", height: "1.5em" }}
+        <div className="flex items-center gap-2">
+          <ReactCountryFlag
+            countryCode={current.flag}
+            svg
+            style={{ width: "1.25em", height: "1.25em" }}
+          />
+          <span className="whitespace-nowrap">{current.label}</span>
+        </div>
+
+        <ChevronDown
+          className={`w-4 h-4 transition-transform duration-300 ${
+            open ? "rotate-180" : "rotate-0"
+          }`}
         />
-        <span className="text-sm">{currentLang.label}</span>
       </button>
 
-      {/* Dropdown bahasa lain */}
       {open && (
-        <div className="absolute right-0 mt-2 w-40 bg-white shadow-lg rounded-md py-2 z-50">
-          {languages
-            .filter((l) => l.code !== currentLang.code)
-            .map((lang) => (
-              <button
-                key={lang.code}
-                onClick={() => changeLang(lang)}
-                className="flex items-center gap-2 w-full px-3 py-2 text-sm hover:bg-gray-100 transition"
-              >
-                <ReactCountryFlag
-                  countryCode={lang.country}
-                  svg
-                  style={{ width: "1.5em", height: "1.5em" }}
-                />
-                {lang.label}
-              </button>
-            ))}
+        <div
+          className="absolute left-0 mt-2 bg-[#001f3f] 
+                     rounded-md shadow-lg overflow-hidden z-50 min-w-[100px]"
+        >
+          {langs.map((l) => (
+            <button
+              key={l.code}
+              onClick={() => {
+                setLang(l.code as any);
+                setOpen(false);
+              }}
+              className="flex items-center gap-2 px-4 py-2 w-full 
+                         text-left text-white text-sm 
+                         hover:bg-[#003366]/80 transition"
+            >
+              <ReactCountryFlag
+                countryCode={l.flag}
+                svg
+                style={{ width: "1.25em", height: "1.25em" }}
+              />
+              <span className="whitespace-nowrap">{l.label}</span>
+            </button>
+          ))}
         </div>
       )}
     </div>

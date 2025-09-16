@@ -1,0 +1,780 @@
+{
+  "home": "ホーム",
+  "about": "私について",
+  "experience": "経験",
+  "projects": "プロジェクト",
+  "education": "学歴",
+  "organization": "組織",
+  "certifications": "認定資格",
+  "skills": "スキル",
+  "contact": "連絡先",
+  "jobdesc": "職務内容",
+  "overview": "概要",
+  "documentation": "ドキュメント",
+  "certificate": "証明書",
+  "features": "特徴",
+  "license": "ライセンス",
+  "close" : "閉じる",
+
+  "hero": {
+    "hello": "こんにちは、",
+    "typing": "私はフェリ・アンドレアンです",
+    "role": "ウェブ & モバイル開発者 | AI エンジニア | 電気工学",
+    "experience": "元インターン インターン経験者",
+    "button": "お話ししましょう"
+  },
+
+  "aboutSection": {
+    "title": "私について",
+    "content": "電気工学学士（コンピュータおよび情報システム専攻 – ティダール大学）。人工知能、コンピュータシステム、ソフトウェア開発を専門とする。ディープラーニングに基づくシステムの設計・実装、ウェブおよびモバイルアプリケーションの開発、データベース管理の経験を持つ。問題解決能力、チームワーク、適応力に優れ、効率的で革新的なソリューションを創造。AIと新興技術を活用し、工学と現実世界のアプリケーションを結びつける製品を構築することに情熱を注いでいる。常に成長し、協力し、革新的なプロジェクトに貢献する機会を探している。"
+  },
+
+  "experienceSection": {
+    "title": "経験",
+    "items": [
+      {
+        "role": "インターネットサポート（IS）インターン",
+        "orgKey": "telkom",
+        "org": "インドネシア・テレコム株式会社 マゲラン支店 – インドネシア、マゲラン",
+        "period": "2024年8月 – 2024年9月",
+        "bullets": [
+          "メトロ地域全体のインターネットパフォーマンスをリアルタイムで監視。",
+          "接続の問題をトラブルシューティング。",
+          "Cisco Catalyst を使用して VLAN ネットワークを構成。",
+          "安定した接続のために設置と保守を実施。"
+        ],
+        "documentation": [
+          "/docs/1is.jpeg",
+          "/docs/2is.jpeg",
+          "/docs/3is.jpeg",
+          "/docs/4is.jpeg",
+          "/docs/5is.jpeg",
+          "/docs/6is.jpeg"
+        ],
+        "certificate": [
+          "/certificates/telkomser.jpg"
+        ]
+      },
+
+      {
+        "role": "デジタルエネルギー＆ファシリティ（DEFA）インターン",
+        "orgKey": "telkom",
+        "org": "インドネシア・テレコム株式会社 マゲラン支店 – インドネシア、マゲラン",
+        "period": "2024年8月 – 2024年9月",
+        "bullets": [
+          "発電機室のエアコンと配電システムのデイリーチェックリストを実施。",
+          "発電機オイルの状態を確認し、メイン配電盤の三相電圧と電流を測定。",
+          "発電機故障時のバックアップ電源として大容量バッテリーのpHレベルをテスト。",
+          "マゲラン WITEL のエネルギーインフラと施設の準備維持に貢献。"
+        ],
+        "documentation": [
+          "/docs/1def.jpeg",
+          "/docs/2def.jpeg",
+          "/docs/3def.jpeg",
+          "/docs/4def.jpeg",
+          "/docs/5def.jpeg",
+          "/docs/6def.jpeg"
+        ],
+        "certificate": [
+          "/certificates/telkomser.jpg"
+        ]
+      },
+
+      {
+        "role": "IT サポート インターン",
+        "orgKey": "pemkot",
+        "org": "マゲラン市情報通信統計局 – インドネシア、マゲラン",
+        "period": "2022年1月 – 2022年3月",
+        "bullets": [
+          "マゲラン市政府環境に屋内外のアクセスポイントを設置。",
+          "CCTVユニットが最適に動作しているかを監視。",
+          "CCTVシステム障害の即時修理を担当。",
+          "信頼性を維持するためにCCTVの定期的な週次メンテナンスを実施。"
+        ],
+        "documentation": [
+          "/docs/1dis.jpg",
+          "/docs/2dis.jpg",
+          "/docs/3dis.jpg"
+        ],
+        "certificate": [
+          "/certificates/diser.jpg"
+        ]
+      }
+    ]
+  },
+
+  "educationSection": {
+    "title": "学歴",
+    "university": "ティダール大学 – 電気工学学士",
+    "period": "2021 - 2025",
+    "gpa": "成績平均点 ：3.60 / 4.00",
+    "relevantTitle": "関連科目",
+    "relevant": [
+      "人工知能",
+      "プログラミング",
+      "デジタル画像処理",
+      "データベース管理システム (DBMS)",
+      "ウェブプログラミング",
+      "モバイルアプリケーション開発",
+      "ウェブサービス API",
+      "コンピュータネットワーク"
+    ],
+    "labTitle": "実験助手",
+    "laboratory": [
+      {
+        "name": "プログラミング",
+        "previewImg": "/certificates/lec/pem.png",
+        "pdf": "/certificates/lec/pem.pdf",
+        "jobdesc": [
+          "C言語を使用したプログラミング基礎を習得するために14回のセッションで学生を指導。",
+          "ラボ活動中に1対1でサポートを行い、問題解決能力を向上。",
+          "ライブコーディング試験を通じて学生のパフォーマンスを評価。"
+        ],
+        "date": "2023年9月 – 2023年12月"
+      },
+      {
+        "name": "制御システム",
+        "previewImg": "/certificates/lec/ken.png",
+        "pdf": "/certificates/lec/ken.pdf",
+        "jobdesc": [
+          "制御理論、システムダイナミクス、フィードバック機構を含む14回の実験セッションを実施。",
+          "リアルタイム制御システム構築を含む実践プロジェクトで学生を支援。",
+          "実演と実装を通じて能力を評価。"
+        ],
+        "date": "2024年2月 – 2024年6月"
+      },
+      {
+        "name": "応用プログラミング",
+        "previewImg": "/certificates/lec/peml.png",
+        "pdf": "/certificates/lec/peml.pdf",
+        "jobdesc": [
+          "C++ のオブジェクト指向プログラミングに焦点を当てた応用プログラミング実験を監督。",
+          "アルゴリズム最適化とデータ構造を重視した14回のセッションを実施。",
+          "ライブコーディングテストと問題解決演習で学生を評価。"
+        ],
+        "date": "2024年9月 – 2024年12月"
+      },
+      {
+        "name": "高度なコンピュータネットワーク",
+        "previewImg": "/certificates/lec/jarl.png",
+        "pdf": "/certificates/lec/jarl.pdf",
+        "jobdesc": [
+          "Cisco Packet Tracer を用いた高度なコンピュータネットワークの実験モジュールを設計・開発。",
+          "ネットワーク構成、ルーティング、トラブルシューティング技術を教える14回のセッションを実施。",
+          "シミュレーション試験とグループプロジェクトを通じて学生のスキルを評価。"
+        ],
+        "date": "2025年2月 – 2025年6月"
+      }
+    ],
+    "lecTitle": "講師助手",
+    "lecturer": [
+      {
+        "name": "基礎電気通信",
+        "previewImg": "/certificates/lec/teld.png",
+        "pdf": "/certificates/lec/teld.pdf",
+        "jobdesc": [
+          "基礎電気通信の学習モジュールの作成と構成を講師に協力。",
+          "授業活動やディスカッション中に学生の進捗を監視・指導。",
+          "最終プロジェクト発表を評価し、技術的な正確さとプレゼンにフィードバックを提供。"
+        ],
+        "date": "2024年2月 – 2024年6月"
+      },
+      {
+        "name": "プロジェクトマネジメント",
+        "previewImg": "/certificates/lec/manp.png",
+        "pdf": "/certificates/lec/manp.pdf",
+        "jobdesc": [
+          "プロジェクト計画と実行に関する教材の準備を講師と共同で実施。",
+          "学生がアジャイルやウォーターフォールなどのプロジェクト管理手法を理解できるよう議論を促進。",
+          "学生の最終プロジェクトを評価し、フレームワークの正しい適用を確認。"
+        ],
+        "date": "2024年9月 – 2024年12月"
+      },
+      {
+        "name": "ソフトウェア工学",
+        "previewImg": "/certificates/lec/rpl.png",
+        "pdf": "/certificates/lec/rpl.pdf",
+        "jobdesc": [
+          "課題、中間試験、期末試験を採点。",
+          "学生にソフトウェア開発ライフサイクル (SDLC) の原則を適用するよう指導。",
+          "プロジェクトのプレゼンとシミュレーションを評価し、設計と実装の品質に重点を置いた。"
+        ],
+        "date": "2025年2月 – 2025年6月"
+      }
+    ]
+  },
+
+"organizationSection": {
+  "title": "組織活動",
+  "items": [
+    {
+      "role": "国営電気工学事業（BUME）スタッフ",
+      "org": "ティダール大学 電気工学学生協会",
+      "period": "2022年3月 – 2023年9月",
+      "logos": ["/logos/hmte.png", "/logos/abhinaya.png"],
+      "cabinet": "アビナヤ・アクサタ内閣",
+      "bullets": [
+        "2022年度電気工学新入生の公式ジャケットとグッズを設計・標準化。",
+        "ベンダー選定、価格交渉、品質管理を含む調達プロセスを一貫して担当。",
+        "注文、支払い、取引記録を構造化されたドキュメントで管理。",
+        "サプライヤーと連携し、商品が予定通りに生産・納品されるよう調整。",
+        "正規のユニフォームとグッズを適切な記録とともに学生へ配布。"
+      ],
+      "documentation": [
+        "/org/bume/doc1.png",
+        "/org/bume/doc2.jpg",
+        "/org/bume/doc3.jpg",
+        "/org/bume/doc4.png"
+      ],
+      "certificate": [
+        "/org/bume/cert.png"
+      ]
+    },
+    {
+      "role": "メディア・情報部（Medinfo）部長",
+      "org": "ティダール大学 電気工学学生協会",
+      "period": "2023年3月 – 2024年9月",
+      "logos": ["/logos/hmte.png", "/logos/dirandra.png"],
+      "cabinet": "ディランドラ・チャクラワラ内閣",
+      "bullets": [
+        "メディア・情報部を率い、2名のスタッフを統括して協会のデジタルプレゼンスを管理。",
+        "Instagramなどのプラットフォーム向けにSNSコンテンツ戦略を企画・計画・実行。",
+        "デジタルブランディングやイベントの宣伝資料をデザインし、一貫したビジュアルアイデンティティを維持。",
+        "コンテンツ制作フロー（企画、デザイン、キャプション作成、フィード計画、投稿）を管理。",
+        "新入生オリエンテーション（ELCATION 2023）の公式ブランディングを制作（ロゴ、ポスター、Instagramフィードレイアウトを含む）。"
+      ],
+      "documentation": [
+        "/org/medinfo/doc1.jpg",
+        "/org/medinfo/doc2.png",
+        "/org/medinfo/doc3.png",
+        "/org/medinfo/doc4.png",
+        "/org/medinfo/doc5.png",
+        "/org/medinfo/doc6.png",
+        "/org/medinfo/doc7.png",
+        "/org/medinfo/doc8.png",
+        "/org/medinfo/doc9.png",
+        "/org/medinfo/doc10.png",
+        "/org/medinfo/doc11.png",
+        "/org/medinfo/doc12.png"
+      ],
+      "certificate": [
+        "/org/medinfo/cert.png"
+      ]
+    }
+  ]
+},
+
+"projectsSection": {
+  "title": "プロジェクト",
+  "items": [
+    {
+      "name": "ポートフォリオウェブ - インドネシア、マゲラン",
+      "image": "/logos/porto.png",
+      "year": "2025",
+      "description": "デジタル履歴書およびプロジェクトショーケースとして設計された個人ポートフォリオウェブサイト。プロフィール、スキル、認定資格、プロジェクトをインタラクティブなコンポーネントとモダンなデザインで紹介。",
+      "details": {
+        "overview": "Next.js 14（App Router）とReactをコアフレームワークとして開発。TailwindCSSでモダンかつレスポンシブなデザインを実現し、Framer Motionでスムーズなアニメーションを追加。Swiper.jsを統合してインタラクティブなカルーセルを実装し、Context APIで状態管理（英語、インドネシア語、韓国語、日本語の多言語切替）をサポート。プロジェクトデータはJSONから動的に読み込まれ、拡張性と保守性を確保。Vercelにデプロイし、SEO最適化とマルチデバイス対応を実現。",
+        "features": {
+          "フロントエンド": [
+            "Next.js 14（App Router）によるモダンなReact開発",
+            "React 18のServer Componentsで最適化されたレンダリング",
+            "TailwindCSSによるユーティリティファーストのレスポンシブスタイル",
+            "Framer Motionによるスムーズなページ遷移とアニメーション",
+            "Swiper.jsでのカバーフローカルーセルと画像ギャラリー",
+            "全デバイス最適化のレスポンシブグリッドレイアウト"
+          ],
+          "機能性": [
+            "Context APIによる多言語対応（英語、インドネシア語、韓国語、日本語）",
+            "JSONからの動的コンテンツ読み込み（スキル、資格、プロジェクト、経験）",
+            "詳細なプロジェクト・経験を表示するインタラクティブなモーダル",
+            "Swiper統合による画像ズームギャラリー",
+            "スムーズスクロールによるセクションナビゲーション",
+            "Escapeキーでモーダルやギャラリーを閉じる機能",
+            "セマンティックHTMLを活用したアクセシビリティ対応"
+          ],
+          "パフォーマンスとSEO": [
+            "Next.js Imageとコード分割による最適化ビルド",
+            "SEOのためのメタタグと構造化データ",
+            "画像やコンポーネントの遅延読み込み",
+            "モバイルファーストのレスポンシブデザイン",
+            "Vercelプラットフォーム向けの最適化デプロイ"
+          ],
+          "管理の容易さと拡張性": [
+            "JSON + Context APIによる集中型言語・データ管理",
+            "セクション・カード・モーダルの再利用可能コンポーネント",
+            "将来拡張に対応するスケーラブルなフォルダ構成"
+          ]
+        },
+        "documentation": [
+          "/project/porto/pfstr.png",
+          "/project/porto/pf1.png",
+          "/project/porto/pf2.png",
+          "/project/porto/pf3.png",
+          "/project/porto/pf4.png",
+          "/project/porto/pf5.png",
+          "/project/porto/pf6.png",
+          "/project/porto/pf7.png",
+          "/project/porto/pf8.png",
+          "/project/porto/pf9.png"
+        ]
+      }
+    },
+    {
+      "name": "D’SIBIカメラ - インドネシア、マゲラン",
+      "image": "/logos/dsibi.png",
+      "year": "2025",
+      "description": "YOLOv8を使用したSIBI（インドネシア手話）ジェスチャーのリアルタイム検出システム。A〜Zのハンドサインを高精度で認識し、コミュニケーションと学習を支援。",
+      "details": {
+        "overview": "D’SIBI Cameraは、YOLOv8およびSSDを用いたディープラーニング手法で、SIBIアルファベットA〜Zをリアルタイム検出するAIアプリケーション。2600枚（各クラス100枚）の画像データセットを複数参加者から収集し、距離・角度の変化を含む多様な条件を学習。動的文字（JとZ）は動画から抽出。90%以上の精度を達成し、ウェブカメラやスマホ（DroidCam）入力で動作。自動録画機能により、検出開始から動画を保存し、バウンディングボックス、ラベル、信頼度、FPSを表示。聴覚障害者向け支援、特別支援学校での教育、研究用途に設計。Python 3.8+、8GB RAM、GPU環境で最適動作。",
+        "features": {
+          "検出": [
+            "SIBIアルファベットA〜Zのリアルタイム検出",
+            "検出された手のバウンディングボックス表示",
+            "認識された文字のラベル表示",
+            "各予測の信頼度スコア表示",
+            "検出中のFPSカウンター表示"
+          ],
+          "コントロール": [
+            "「S」キー → ラベルと信頼度付きスナップショットをcaptures/フォルダに保存",
+            "「Q」キー → プログラムを安全に終了、カメラを閉じてリソース解放"
+          ],
+          "録音": [
+            "検出開始と同時に自動録画",
+            "動画はrecords/ディレクトリに連番で保存（record_sibi1.mp4, record_sibi2.mp4, ...）",
+            "各フレームにバウンディングボックス、ラベル、信頼度、FPSを表示"
+          ],
+          "データセット": [
+            "SIBI 26クラス（A〜Z）で合計2600枚",
+            "2人の参加者から各クラス100枚収集",
+            "距離・手の位置・カメラ角度のバリエーション",
+            "動画フレームから抽出された動的文字（JとZ）"
+          ],
+          "システム要件": [
+            "OS: Windows",
+            "Python 3.8+（OpenCV、Ultralytics YOLOなど必要ライブラリ）",
+            "最低RAM: 8GB",
+            "推奨GPU: NVIDIA（最適なパフォーマンス用）"
+          ],
+          "使用例": [
+            "聴覚障害者向けコミュニケーション支援技術",
+            "特別支援学校（SLB）でのSIBI学習補助",
+            "インドネシアにおける手話認識研究ツール"
+          ]
+        },
+        "documentation": [
+          "/project/dsibi/ds1.png",
+          "/project/dsibi/ds2.png",
+          "/project/dsibi/ds3.png",
+          "/project/dsibi/ds4.png",
+          "/project/dsibi/ds5.png",
+          "/project/dsibi/ds6.png",
+          "/project/dsibi/ds7.png"
+        ],
+        "license": {
+          "text": "知的財産権（IPR）",
+          "image": "/project/dsibi/hkik.png"
+        }
+      }
+    },
+    {
+      "name": "WaafStockモバイル - インドネシア、マゲラン",
+      "image": "/logos/wamo.png",
+      "year": "2024",
+      "description": "JavaとVolleyで構築されたAndroidアプリ。スタッフと管理者向けに物品リクエスト、承認、在庫監視、取引履歴をWaafStockサーバーAPIと同期。",
+      "details": {
+        "overview": "WaafStock モバイルアプリは、JavaとVolley API統合で開発された在庫管理システムのAndroid版。スタッフと管理者がモバイル端末から直接在庫関連業務を管理できる。WaafStockサーバーAPIと完全統合され、ウェブプラットフォームとリアルタイムで同期。スタッフは安全なログイン、物品リクエスト送信、在庫確認、リクエスト状況追跡が可能。管理者はリクエスト確認・承認・拒否、在庫監視、履歴確認を行える。役割ベースのアクセス制御と中央集約データで、クロスプラットフォーム利用を実現。",
+        "features": {
+          "スタッフの役割": [
+            "データベースで認証されたスタッフ資格情報で安全にログイン",
+            "シンプルかつレスポンシブなフォームで新規物品リクエスト送信",
+            "リアルタイムの在庫確認",
+            "リクエスト状況（保留、承認、拒否）を確認",
+            "個人のリクエスト履歴にアクセスし、透明性を確保"
+          ],
+          "マネージャーの役​​割": [
+            "管理者資格情報でログインし安全にアクセス",
+            "スタッフが送信した保留中リクエスト一覧を確認",
+            "アプリ上で直接リクエストを承認または拒否",
+            "現在の在庫レベルを監視",
+            "監査目的のためにリクエストと承認履歴を確認"
+          ],
+          "統合": [
+            "Volleyライブラリによる効率的なREST API通信",
+            "エラーバリデーション付きのJSON応答処理",
+            "モバイルとウェブプラットフォーム間でリアルタイム同期",
+            "クロスプラットフォーム整合性によりデータの一貫性を確保"
+          ]
+        },
+        "documentation": [
+          "/project/wamo/wm1.png",
+          "/project/wamo/wm2.png",
+          "/project/wamo/wm3.png",
+          "/project/wamo/wm4.png",
+          "/project/wamo/wm5.png",
+          "/project/wamo/wm6.png",
+          "/project/wamo/wm7.png",
+          "/project/wamo/wm8.png",
+          "/project/wamo/wm9.png"
+        ]
+      }
+    },
+  {
+  "name": "WaafStock ウェブ - マゲラン, インドネシア",
+  "image": "/logos/wawe.png",
+  "year": "2024",
+  "description": "在庫およびリクエスト管理のためのマネージャーとスタッフ用のウェブプラットフォーム。ダッシュボード、チャート、履歴を提供し、REST APIと統合。",
+  "details": {
+    "overview": "WaafStock ウェブ アプリケーションは、在庫およびリクエスト管理のメインインターフェースとして設計されました。HTML、CSS、JavaScript (Fetch API) を用いて構築され、WaafStock サーバー REST API と統合されています。スタッフはログインしてリクエスト送信、在庫確認、履歴追跡が可能であり、マネージャーはダッシュボード、承認ワークフロー、モニタリングツールを利用して在庫とスタッフの活動を監督できます。このプラットフォームはチャートやログを通じてデータを可視化し、在庫動向やリクエスト統計に関する洞察をマネージャーに提供し、システム全体の透明性と説明責任を確保します。",
+    "features": {
+      "マネージャーの役​​割": [
+        "マネージャー資格情報でログインし、安全にシステムへアクセス",
+        "リアルタイムチャート付きのダッシュボード（総リクエスト数、承認比率、在庫動向を表示）",
+        "スタッフが提出したアイテムリクエストを承認または拒否",
+        "在庫レベルの閲覧と監視（読み取り専用、更新は管理者が実施）",
+        "ユーザー、日付、アイテムごとにフィルタリング可能な完全なリクエスト履歴にアクセス",
+        "意思決定と説明責任を追跡する透明な監査証跡"
+      ],
+      "スタッフの役割": [
+        "スタッフ資格情報で安全にログイン",
+        "構造化されたリクエストフォームから新しいアイテムリクエストを送信",
+        "リクエストステータスをリアルタイムで確認（保留、承認、却下）",
+        "利用可能な在庫を確認し、適切なリクエストが可能",
+        "リクエストと承認の個人履歴にアクセスし、記録を保持"
+      ],
+      "統合": [
+        "Fetch API を利用した REST API 呼び出し（構造化された JSON 応答）",
+        "クロスデバイスでの利用性を考慮したレスポンシブUI",
+        "マネージャーとスタッフの機能を分離したロールベースの設計によるセキュリティと明確性",
+        "WaafStock サーバー API による集中データ管理"
+      ]
+    },
+    "documentation": [
+      "/project/wawe/ww1.png",
+      "/project/wawe/ww2.png",
+      "/project/wawe/ww3.png",
+      "/project/wawe/ww4.png",
+      "/project/wawe/ww5.png",
+      "/project/wawe/ww6.png",
+      "/project/wawe/ww7.png",
+      "/project/wawe/ww8.png",
+      "/project/wawe/ww9.png",
+      "/project/wawe/ww10.png"
+    ]
+  }
+},
+{
+  "name": "WaafStock Server - マゲラン, インドネシア",
+  "image": "/logos/wase.png",
+  "year": "2024",
+  "description": "Node.js と Express で構築された REST API を提供するバックエンドシステム。認証、ロールベースのアクセス、在庫管理、リクエスト追跡を JWT 認可で安全に処理。",
+  "details": {
+    "overview": "WaafStock Server は WaafStock システム全体の中核であり、Node.js と Express で構築され、集中型 MySQL データベースで動作します。ウェブ およびモバイルアプリケーション向けに REST API を提供し、安全な認証、在庫管理、リクエスト処理、監査を可能にします。サーバーは JWT 認証を通じてロールベースのアクセスを強制し、スタッフ、マネージャー、管理者がそれぞれ適切な機能のみを利用できるようにします。管理者はユーザーアカウント、在庫データ、リクエスト履歴を完全に管理し、マネージャーは承認を担当、スタッフはリクエスト送信に集中できます。CRUD操作、履歴追跡、統計機能などを備え、システム全体で安全かつ透明で効率的な在庫管理を保証します。",
+    "features": {
+      "管理者の役割": [
+        "集中管理によるシステム全体の完全制御",
+        "CRUD操作で全登録アカウント（マネージャー & スタッフ）を管理",
+        "在庫アイテムのCRUD操作（新規追加、在庫更新、削除）",
+        "システム全体のリクエスト履歴にアクセス",
+        "統計の生成と閲覧（総リクエスト数、承認、保留、却下）",
+        "意思決定に役立つ棒グラフ形式の可視化レポート"
+      ],
+      "マネージャーの役​​割": [
+        "スタッフが提出したリクエストを承認または却下",
+        "在庫情報を閲覧（読み取り専用、更新は管理者が実施）",
+        "ユーザー、アイテム、日付ごとにフィルタリング可能なリクエスト履歴にアクセス",
+        "総リクエスト数や承認比率を示すダッシュボード",
+        "役割ごとの意思決定ログで透明性を維持"
+      ],
+      "スタッフの役割": [
+        "スタッフ資格情報で安全にログイン",
+        "マネージャー承認用のアイテムリクエストを送信",
+        "リクエストのステータス（保留、承認、却下）を追跡",
+        "個人のリクエスト・承認履歴にいつでもアクセス可能"
+      ],
+      "APIサービス": [
+        "構造化された JSON 応答フォーマットの REST API",
+        "JWT を用いたロールベースの認証と認可",
+        "MySQL による安全かつ拡張可能な集中型データベース管理",
+        "ウェブ とモバイルクライアント双方をサポート",
+        "信頼性を高めるためのエラーハンドリングと応答検証"
+      ]
+    },
+    "documentation": [
+      "/project/wase/ws1.png",
+      "/project/wase/ws2.png",
+      "/project/wase/ws3.png",
+      "/project/wase/ws4.png",
+      "/project/wase/ws5.png",
+      "/project/wase/ws6.png"
+    ]
+  }
+},
+  {
+  "name": "自動カーテン制御システム - マゲラン, インドネシア",
+  "image": "/logos/acur.png",
+  "year": "2023",
+  "description": "ATmega16 を使用した自動カーテン制御のマイクロコントローラベースのシステム。光センサー入力を利用してサーボモーターを駆動し、スマートで省エネな自動化を実現。",
+  "details": {
+    "overview": "自動カーテン制御システムは、スマートホーム自動化プロジェクトとして開発された IoT プロトタイプです。C 言語でプログラムされた ATmega16 マイクロコントローラを使用し、周囲光の強度に基づいてカーテンの動きを制御します。LDR（光依存抵抗）センサーが継続的に光レベルを検出し、システムはサーボモーターを駆動して自動的にカーテンを開閉します。これにより、昼間の自然光を最適化し、夜間にはプライバシーを確保でき、手動操作の必要性を減らします。このシステムは Proteus を使用して設計・シミュレーション・テストされ、実際のハードウェアプロトタイプとして実装され、センサー、マイクロコントローラ、アクチュエータの統合を実証しました。",
+    "features": {
+      "ハードウェア": [
+        "メインコントローラとして ATmega16 マイクロコントローラを使用",
+        "周囲光強度を測定する LDR センサー",
+        "カーテンレールに接続されたサーボモーターで開閉を制御",
+        "電源を安定化させる電圧レギュレータ回路",
+        "ブレッドボード上で試作した後、デモモデルに統合したハードウェアプロトタイプ"
+      ],
+      "ソフトウェア": [
+        "ATmega16 ファームウェアの C 言語プログラミング",
+        "LDR の読み取り値をサーボモーター制御信号に変換するカスタムロジック",
+        "しきい値に基づいて自動的に開閉位置を決定するシステム",
+        "Proteus ソフトウェアでの回路設計とシミュレーション",
+        "ステップごとのデバッグと実機によるライブデモ検証"
+      ],
+      "機能的": [
+        "周囲光が設定しきい値を超えるとカーテンが自動的に開く",
+        "光レベルがしきい値を下回るとカーテンが自動的に閉じる",
+        "マイクロコントローラのリセットや再プログラミングで手動操作も可能",
+        "昼間の自然採光を最大化することで省エネを実現",
+        "スマートホームアプリケーション向けの低コストかつ拡張可能な IoT プロトタイプ"
+      ]
+    },
+    "documentation": [
+      "/project/acur/ac1.png",
+      "/project/acur/ac2.png"
+    ]
+  }
+}
+  ]
+},
+
+  "certificationsSection": {
+    "title": "認定資格",
+    "items": [
+      {
+        "name": "生成 AI 認定プロフェッショナル",
+        "issuer": "オラクル コーポレーション",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/e/e1/Oracle_Corporation_logo.svg"],
+        "previewImg": "/certificates/previews/oracle-generative-ai.jpg",
+        "pdf": "/certificates/oracle-generative-ai.pdf"
+      },
+      {
+        "name": "データサイエンス認定プロフェッショナル",
+        "issuer": "オラクル コーポレーション",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/e/e1/Oracle_Corporation_logo.svg"],
+        "previewImg": "/certificates/previews/oracle-datascience.jpg",
+        "pdf": "/certificates/oracle-datascience.pdf"
+      },
+      {
+        "name": "AI ベクター検索認定プロフェッショナル",
+        "issuer": "オラクル コーポレーション",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/e/e1/Oracle_Corporation_logo.svg"],
+        "previewImg": "/certificates/previews/oracle-vectorsearch.jpg",
+        "pdf": "/certificates/oracle-vectorsearch.pdf"
+      },
+      {
+        "name": "Fusion AI Agent Studio 基礎",
+        "issuer": "オラクル コーポレーション",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/e/e1/Oracle_Corporation_logo.svg"],
+        "previewImg": "/certificates/previews/oracle-fusion-ai.jpg",
+        "pdf": "/certificates/oracle-fusion-ai.pdf"
+      },
+      {
+        "name": "C# 基礎プログラミング",
+        "issuer": "マイクロソフト × freeCodeCamp",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg", "/logos/freecodecamp.svg"],
+        "previewImg": "/certificates/previews/foundational-programming-csharp.jpg",
+        "pdf": "/certificates/foundational-programming-csharp.pdf"
+      },
+      {
+        "name": "Python 機械学習",
+        "issuer": "freeCodeCamp",
+        "year": "2025",
+        "logos": ["/logos/freecodecamp.svg"],
+        "previewImg": "/certificates/previews/machine-learning-python.jpg",
+        "pdf": "/certificates/machine-learning-python.pdf"
+      },
+      {
+        "name": "AI 活用型パフォーマンス広告",
+        "issuer": "グーグル",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"],
+        "previewImg": "/certificates/previews/google-ai-ads.jpg",
+        "pdf": "/certificates/google-ai-ads.pdf"
+      },
+      {
+        "name": "拡散モデルによる生成 AI",
+        "issuer": "アマゾン ウェブ サービス",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"],
+        "previewImg": "/certificates/previews/aws-diffusion.jpg",
+        "pdf": "/certificates/aws-diffusion.pdf"
+      },
+      {
+        "name": "プロンプトエンジニアリング基礎",
+        "issuer": "アマゾン ウェブ サービス",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"],
+        "previewImg": "/certificates/previews/aws-prompt.jpg",
+        "pdf": "/certificates/aws-prompt.pdf"
+      },
+      {
+        "name": "TOEFL 予測テスト",
+        "issuer": "ティダール大学",
+        "year": "2025",
+        "logos": ["/logos/untidar.png"],
+        "previewImg": "/certificates/previews/untidar-toefl.jpg",
+        "pdf": "/certificates/untidar-toefl.pdf"
+      }
+    ]
+  },
+
+  "skillsSection": {
+  "title": "スキル",
+  "categories": [
+    {
+      "category": "プログラミング言語",
+      "items": [
+        { "name": "Python", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+        { "name": "C", "icon": "logos/c.png" },
+        { "name": "C++", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
+        { "name": "SQL", "icon": "logos/sql.png" },
+        { "name": "JavaScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+        { "name": "Java", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+        { "name": "Kotlin", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" },
+        { "name": "HTML", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+        { "name": "PHP", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" },
+        { "name": "TypeScript", "icon": "logos/ts.png" },
+        { "name": "JSON", "icon": "logos/json.png" }
+      ]
+    },
+    {
+      "category": "AI ツール",
+      "items": [
+        { "name": "Google Colab", "icon": "https://cdn.simpleicons.org/googlecolab" },
+        { "name": "Jupyter Notebook", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" },
+        { "name": "Roboflow", "icon": "https://cdn.simpleicons.org/roboflow" },
+        { "name": "LabelImg", "icon": "logos/labelimg.png" },
+        { "name": "Tensorflow", "icon": "logos/tensorf.png" },
+        { "name": "Ultralytics", "icon": "logos/ult.png" },
+        { "name": "OpenCV", "icon": "logos/opencv.png" }
+      ]
+    },
+    {
+      "category": "コーディングツール",
+      "items": [
+        { "name": "VS Code", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
+        { "name": "Android Studio", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" },
+        { "name": "Code::Blocks", "icon": "logos/cb.png" },
+        { "name": "Dev C++", "icon": "logos/devc.png" }
+      ]
+    },
+    {
+      "category": "ネットワーキング",
+      "items": [
+        { "name": "Cisco Packet Tracer", "icon": "https://cdn.simpleicons.org/cisco" },
+        { "name": "構成 CLI", "icon": "https://cdn.simpleicons.org/gnometerminal" },
+        { "name": "トラブルシューティング", "icon": "logos/trouble.png" },
+        { "name": "ルーティング", "icon": "logos/router.png" }
+      ]
+    },
+    {
+      "category": "管理ツール",
+      "items": [
+        { "name": "Microsoft Word", "icon": "logos/msword.png" },
+        { "name": "Microsoft PowerPoint", "icon": "logos/mspp.png" },
+        { "name": "Microsoft Excel", "icon": "logos/msexcel.png" },
+        { "name": "Google ドキュメント", "icon": "https://cdn.simpleicons.org/googledocs" },
+        { "name": "Google フォーム", "icon": "https://cdn.simpleicons.org/googleforms" },
+        { "name": "Google スプレッドシート", "icon": "https://cdn.simpleicons.org/googlesheets" }
+      ]
+    },
+    {
+      "category": "デザインツール",
+      "items": [
+        { "name": "CorelDRAW", "icon": "https://cdn.simpleicons.org/coreldraw" },
+        { "name": "Canva", "icon": "logos/canva.png" },
+        { "name": "Adobe Illustrator", "icon": "logos/ai.png" }
+      ]
+    },
+    {
+      "category": "ウェブ開発",
+      "items": [
+        { "name": "React.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+        { "name": "Next.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+        { "name": "Framer Motion", "icon": "logos/framer.png" },
+        { "name": "Swiper", "icon": "logos/swiper.svg" },
+        { "name": "Node.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" }
+      ]
+    },
+    {
+      "category": "プロジェクト管理",
+      "items": [
+        { "name": "マネジメント", "icon": "https://cdn.simpleicons.org/trello" },
+        { "name": "レポーティング", "icon": "logos/report.png" },
+        { "name": "Google カレンダー", "icon": "logos/gcal.png" }
+      ]
+    },
+    {
+      "category": "技術ツール",
+      "items": [
+        { "name": "Arduino IDE", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" },
+        { "name": "Microchip Studio", "icon": "logos/microchip.png" }
+      ]
+    }
+  ]
+},
+
+"contactSection": {
+  "title": "連絡先",
+  "subtitle": "私とつながる",
+  "mediaTitle": "ソーシャルメディア",
+  "contacts": [
+    {
+      "name": "WhatsApp",
+      "href": "https://wa.me/6289606366195",
+      "icon": "logos/whatsapp.png",
+      "text": "+6289606366195",
+      "hover": "hover:bg-green-500/70"
+    },
+    {
+      "name": "メール",
+      "href": "mailto:feryandrn@gmail.com",
+      "icon": "logos/gmail.png",
+      "text": "feryandrn@gmail.com",
+      "hover": "hover:bg-red-500/70"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://id.linkedin.com/in/fery-andrean-5a03252bb",
+      "icon": "logos/linkedin.png",
+      "text": "Fery Andrean",
+      "hover": "hover:bg-blue-600/70"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/FerrrAndrn",
+      "icon": "logos/github.png",
+      "text": "github.com/FerrrAndrn",
+      "hover": "hover:bg-gray-700/70"
+    },
+    {
+      "name": "Instagram",
+      "href": "https://www.instagram.com/fery_andrn",
+      "icon": "logos/ig.png",
+      "text": "@fery_andrn",
+      "hover": "hover:bg-gradient-to-r hover:from-[#9c27b0b3] hover:via-[#e91e63b3] hover:to-[#ff9800b3]"
+    }
+  ],
+  "addressTitle": "住所",
+  "address": "パンダンサリ・バラット通り, マンテナン RT 02 / RW 01, メルトユダン, マゲラン, 中部ジャワ州, インドネシア (56172)"
+},
+
+"viewCertificate": "証明書を見る",
+"viewDetails": "詳細を見る"
+}

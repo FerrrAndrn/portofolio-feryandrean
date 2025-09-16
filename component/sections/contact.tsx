@@ -1,114 +1,84 @@
+"use client";
+
+import { motion } from "framer-motion";
 import Section from "@/component/section";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function Contact() {
+  const { t } = useLanguage();
+  const contactSection = t("contactSection");
+  const contacts = contactSection.contacts || [];
+
   return (
-    <Section
-      id="contact"
-      title={
-        <span className="bg-gradient-to-r from-[#001f3f] via-[#003366] to-[#001f3f] bg-clip-text text-transparent">
-          Contact
-        </span>
-      }
-    >
-      <div className="max-w-lg mx-auto bg-gradient-to-r from-[#001f3f] via-[#004080] to-[#003366] text-white rounded-lg shadow-lg p-8 hover:scale-[1.05] hover:shadow-2xl transition">
-        <h3 className="text-lg font-bold mb-6 text-center">
-          Get in Touch with Me
-        </h3>
-        <ul className="space-y-4">
-          {/* WhatsApp */}
-          <li className="flex items-center gap-3 p-3 rounded-lg hover:bg-green-500/70 transition">
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
-              alt="WhatsApp"
-              className="w-6 h-6"
-            />
-            <a
-              href="https://wa.me/6289606366195"
-              target="_blank"
-              rel="noreferrer"
-              className="text-white"
-            >
-              089606366195
-            </a>
-          </li>
+    <Section id="contact">
+      <div className="text-center -mt-10">
+        <h2 className="text-3xl font-bold text-[#001f3f]">
+          {contactSection.title}
+        </h2>
+        <p className="text-lg font-bold text-[#001f3f] mt-3">
+          {contactSection.subtitle}
+        </p>
+      </div>
 
-          {/* Email */}
-          <li className="flex items-center gap-3 p-3 rounded-lg hover:bg-red-500/70 transition">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-26 text-[#001f3f] mt-6 px-6 md:px-12">
+        <motion.div
+          className="text-left"
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          viewport={{ once: false, amount: 0.2 }}
+        >
+          <h3 className="font-bold text-xl text-center mb-6">
+            {contactSection.addressTitle}
+          </h3>
+          <div className="flex items-center gap-3">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
-              alt="Email"
+              src="https://cdn-icons-png.flaticon.com/512/684/684908.png"
+              alt="Location Icon"
               className="w-6 h-6"
             />
-            <a href="mailto:feryandrn@gmail.com" className="text-white">
-              feryandrn@gmail.com
-            </a>
-          </li>
+            <p className="text-lg leading-relaxed font-medium text-justify">
+              {contactSection.address}
+            </p>
+          </div>
+        </motion.div>
 
-          {/* LinkedIn */}
-          <li className="flex items-center gap-3 p-3 rounded-lg hover:bg-blue-600/70 transition">
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-              alt="LinkedIn"
-              className="w-6 h-6"
-            />
-            <a
-              href="https://id.linkedin.com/in/fery-andrean-5a03252bb"
-              target="_blank"
-              rel="noreferrer"
-              className="text-white"
-            >
-              feryandrn
-            </a>
-          </li>
-
-          {/* GitHub */}
-          <li className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-700/70 transition">
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
-              alt="GitHub"
-              className="w-6 h-6"
-            />
-            <a
-              href="https://github.com/FerrrAndrn"
-              target="_blank"
-              rel="noreferrer"
-              className="text-white"
-            >
-              github.com/FerrAndrn
-            </a>
-          </li>
-
-          {/* Instagram (gradient transparan 70%) */}
-          <li
-            className="flex items-center gap-3 p-3 rounded-lg transition"
-            style={{ transition: "background 0.3s ease" }}
-          >
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
-              alt="Instagram"
-              className="w-6 h-6"
-            />
-            <a
-              href="https://www.instagram.com/feryandrn"
-              target="_blank"
-              rel="noreferrer"
-              className="text-white"
-            >
-              @feryandrn
-            </a>
-            <style jsx>{`
-              li:hover {
-                background: linear-gradient(
-                  to right,
-                  #9c27b0b3,
-                  #e91e63b3,
-                  #ff9800b3,
-                  #ffeb3bb3
-                ); /* b3 = 70% opacity */
-              }
-            `}</style>
-          </li>
-        </ul>
+        <motion.div
+          className="text-left"
+          initial={{ opacity: 0, x: 40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+          viewport={{ once: false, amount: 0.2 }}
+        >
+          <h3 className="font-bold text-xl text-center mb-6">
+            {contactSection.mediaTitle}
+          </h3>
+          <div className="flex flex-col gap-2 pl-4">
+            {contacts.map((c: any, i: number) => (
+              <motion.a
+                key={i}
+                href={c.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: i * 0.1 }}
+                viewport={{ once: false, amount: 0.2 }}
+                whileHover={{ scale: 1.03, x: 2 }}
+                className={`flex items-center gap-3 px-3 py-1.5 rounded-lg transition text-lg font-medium ${c.hover} bg-transparent`}
+              >
+                <motion.img
+                  src={c.icon}
+                  alt={c.name}
+                  className="w-7 h-7 bg-transparent"
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ duration: 0.2 }}
+                />
+                <span>{c.text}</span>
+              </motion.a>
+            ))}
+          </div>
+        </motion.div>
       </div>
     </Section>
   );

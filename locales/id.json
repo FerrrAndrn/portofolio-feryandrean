@@ -1,0 +1,780 @@
+{
+  "home": "Beranda",
+  "about": "Tentang",
+  "experience": "Pengalaman",
+  "projects": "Proyek",
+  "education": "Pendidikan",
+  "organization": "Organisasi",
+  "certifications": "Sertifikasi",
+  "skills": "Keahlian",
+  "contact": "Kontak",
+  "jobdesc": "Deskripsi Pekerjaan",
+  "overview": "Ringkasan",
+  "documentation": "Dokumentasi",
+  "certificate": "Sertifikat",
+  "features" : "fitur",
+  "license" : "lisensi",
+  "close" : "Tutup",
+
+"hero": {
+  "hello": "Halo,",
+  "typing": "Saya Fery Andrean",
+  "role": "Pengembang Web & Mobile | Teknisi AI | Teknik Elektro",
+  "experience": "Magang (Selesai) PT. Telekomunikasi Indonesia",
+  "button": "Ayo Bicara"
+},
+
+"aboutSection": {
+  "title": "Tentang Saya",
+  "content": "Lulusan Sarjana Teknik Elektro (konsentrasi Sistem Komputer dan Informasi – Universitas Tidar) dengan spesialisasi di Kecerdasan Buatan, Sistem Komputer, dan Pengembangan Perangkat Lunak. Berpengalaman dalam merancang dan mengimplementasikan sistem berbasis Deep Learning, mengembangkan aplikasi web dan mobile, serta mengelola basis data. Terampil dalam pemecahan masalah, kerja tim, dan kemampuan beradaptasi untuk menciptakan solusi yang efisien dan inovatif. Memiliki passion dalam memanfaatkan AI dan teknologi terkini untuk membangun produk yang berdampak, menghubungkan dunia teknik dengan aplikasi nyata. Senantiasa mencari peluang untuk berkembang, berkolaborasi, dan berkontribusi pada proyek-proyek inovatif."
+},
+
+ "experienceSection": {
+  "title": "Pengalaman",
+  "items": [
+    {
+      "role": "Magang Staff Internet Support (IS)",
+      "orgKey": "telkom",
+      "org": "PT. Telekomunikasi Indonesia WITEL Magelang – Magelang, Indonesia",
+      "period": "Aug 2024 – Sep 2024",
+      "bullets": [
+        "Memantau performa internet secara real-time di area Metro.",
+        "Melakukan troubleshooting untuk masalah konektivitas.",
+        "Mengonfigurasi jaringan VLAN menggunakan Cisco Catalyst.",
+        "Melakukan instalasi dan pemeliharaan untuk memastikan konektivitas yang stabil."
+      ],
+      "documentation": [
+        "/docs/1is.jpeg",
+        "/docs/2is.jpeg",
+        "/docs/3is.jpeg",
+        "/docs/4is.jpeg",
+        "/docs/5is.jpeg",
+        "/docs/6is.jpeg"
+      ],
+      "certificate": [
+        "/certificates/telkomser.jpg"
+      ]
+      },
+
+      {
+        "role": "Magang Staff Digital Energy and Facility (DEFA)",
+        "orgKey": "telkom",
+        "org": "PT. Telekomunikasi Indonesia WITEL Magelang – Magelang, Indonesia",
+        "period": "Aug 2024 – Sep 2024",
+        "bullets": [
+          "Melakukan checklist harian untuk AC ruang genset dan sistem distribusi daya.",
+          "Memeriksa kondisi oli genset dan mengukur tegangan serta arus tiga fasa pada panel distribusi utama.",
+          "Menguji tingkat pH baterai kapasitas besar sebagai cadangan daya saat genset mengalami gangguan.",
+          "Berperan dalam pemeliharaan infrastruktur energi dan kesiapan fasilitas di Witel Magelang."
+        ],
+        "documentation": [
+        "/docs/1def.jpeg",
+        "/docs/2def.jpeg",
+        "/docs/3def.jpeg",
+        "/docs/4def.jpeg",
+        "/docs/5def.jpeg",
+        "/docs/6def.jpeg"
+      ],
+      "certificate": [
+        "/certificates/telkomser.jpg"
+      ]
+      },
+
+      {
+        "role": "Magang IT Support",
+        "orgKey": "pemkot",
+        "org": "Dinas Komunikasi Informasi dan Statistika Pemerintah Kota Magelang – Magelang, Indonesia",
+        "period": "Jan 2022 – Mar 2022",
+        "bullets": [
+        "Memasang access point indoor dan outdoor di lingkungan Pemerintah Kota Magelang.",
+        "Memantau dan memastikan unit CCTV berfungsi secara optimal.",
+        "Menangani perbaikan segera saat sistem CCTV mengalami gangguan.",
+        "Melakukan perawatan rutin mingguan pada CCTV untuk menjaga keandalannya."
+      ],
+      "documentation": [
+        "/docs/1dis.jpg",
+        "/docs/2dis.jpg",
+        "/docs/3dis.jpg"
+      ],
+      "certificate": [
+        "/certificates/diser.jpg"
+      ]
+      }
+    ]
+  },
+
+"educationSection": {
+  "title": "Pendidikan",
+  "university": "Universitas Tidar – Sarjana Teknik Elektro",
+  "period": "2021 - 2025",
+  "gpa": "IPK : 3.60 / 4.00",
+  "relevantTitle": "Mata Kuliah Relevan",
+  "relevant": [
+      "Kecerdasan Buatan",
+      "Pemrograman",
+      "Pengolahan Citra Digital",
+      "Sistem Manajemen Basis Data (DBMS)",
+      "Pemrograman Web",
+      "Pengembangan Aplikasi Mobile",
+      "Layanan Web / API",
+      "Jaringan Komputer"
+    ],
+    "labTitle": "Asisten Laboratorium",
+    "laboratory": [
+  {
+    "name": "Pemrograman",
+    "previewImg": "/certificates/lec/pem.png",
+    "pdf": "/certificates/lec/pem.pdf",
+    "jobdesc": [
+      "Membimbing mahasiswa melalui 14 sesi untuk menguasai dasar-dasar pemrograman menggunakan bahasa C.",
+      "Memberikan pendampingan satu-satu selama kegiatan laboratorium untuk meningkatkan kemampuan pemecahan masalah.",
+      "Menilai kinerja mahasiswa melalui ujian live coding yang terstruktur."
+    ],
+    "date": "Sept 2023 – Dec 2023"
+  },
+  {
+    "name": "Sistem Kendali",
+    "previewImg": "/certificates/lec/ken.png",
+    "pdf": "/certificates/lec/ken.pdf",
+    "jobdesc": [
+      "Memfasilitasi 14 sesi laboratorium yang mencakup teori kontrol, dinamika sistem, dan mekanisme umpan balik.",
+      "Mendampingi mahasiswa dalam proyek praktis yang melibatkan pembangunan kontrol sistem real-time.",
+      "Mengevaluasi kompetensi melalui demonstrasi praktis dan implementasi langsung."
+    ],
+    "date": "Feb 2024 – June 2024"
+  },
+  {
+    "name": "Pemrograman Lanjut",
+    "previewImg": "/certificates/lec/peml.png",
+    "pdf": "/certificates/lec/peml.pdf",
+    "jobdesc": [
+      "Mengawasi laboratorium pemrograman tingkat lanjut yang berfokus pada konsep pemrograman berorientasi objek C++.",
+      "Melaksanakan 14 sesi yang menekankan optimisasi algoritma dan struktur data.",
+      "Menilai mahasiswa melalui tes live coding dan latihan pemecahan masalah."
+    ],
+    "date": "Sept 2024 – Dec 2024"
+  },
+  {
+    "name": "Jaringan Komputer Lanjut",
+    "previewImg": "/certificates/lec/jarl.png",
+    "pdf": "/certificates/lec/jarl.pdf",
+    "jobdesc": [
+      "Merancang dan mengembangkan modul laboratorium untuk Jaringan Komputer Lanjut menggunakan Cisco Packet Tracer.",
+      "Memimpin 14 sesi mengajar konfigurasi jaringan, routing, dan teknik troubleshooting.",
+      "Menilai keterampilan mahasiswa melalui ujian simulasi langsung dan proyek kelompok."
+    ],
+    "date": "Feb 2025 – June 2025"
+  }
+],
+    "lecTitle": "Asisten Dosen",
+    "lecturer": [
+  {
+    "name": "Telekomunikasi Dasar",
+    "previewImg": "/certificates/lec/teld.png",
+    "pdf": "/certificates/lec/teld.pdf",
+    "jobdesc": [
+      "Membantu dosen dalam mengembangkan dan menyusun modul pembelajaran untuk Telekomunikasi Dasar.",
+      "Memantau dan membimbing kemajuan mahasiswa selama kegiatan dan diskusi perkuliahan.",
+      "Menilai presentasi proyek akhir, memberikan masukan terkait akurasi teknis dan penyampaian."
+    ],
+    "date": "Feb 2024 – June 2024"
+  },
+  {
+    "name": "Manajemen Proyek",
+    "previewImg": "/certificates/lec/manp.png",
+    "pdf": "/certificates/lec/manp.pdf",
+    "jobdesc": [
+        "Bekerja sama dengan dosen untuk menyiapkan materi ajar tentang perencanaan dan pelaksanaan proyek.",
+        "Memfasilitasi diskusi agar mahasiswa memahami metodologi manajemen proyek (Agile, Waterfall).",
+        "Menilai proyek akhir mahasiswa, memastikan penerapan kerangka kerja manajemen proyek yang benar."
+      ],
+    "date": "Sept 2024 – Dec 2024"
+  },
+  {
+    "name": "Rekayasa Perangkat Lunak",
+    "previewImg": "/certificates/lec/rpl.png",
+    "pdf": "/certificates/lec/rpl.pdf",
+    "jobdesc": [
+      "Meninjau dan menilai tugas, ujian tengah semester, dan ujian akhir untuk mata kuliah Rekayasa Perangkat Lunak.",
+      "Membimbing mahasiswa dalam menerapkan prinsip siklus hidup pengembangan perangkat lunak (SDLC) pada proyek mereka.",
+      "Menilai presentasi dan simulasi proyek, dengan fokus pada kualitas desain dan implementasi perangkat lunak."
+    ],
+    "date": "Feb 2025 – June 2025"
+  }
+]
+},
+
+"organizationSection": {
+  "title": "Organisasi",
+  "items": [
+    {
+      "role": "Staf Badan Usaha Milik Elektro (BUME)",
+      "org": "Himpunan Mahasiswa Teknik Elektro – Universitas Tidar",
+      "period": "Mar 2022 – Sep 2023",
+      "logos": ["/logos/hmte.png", "/logos/abhinaya.png"],
+      "cabinet": "Kabinet Abhinaya Aksata",
+      "bullets": [
+        "Mendesain jaket dan merchandise untuk mahasiswa Teknik Elektro angkatan  2022.",
+        "Menangani proses pengadaan dari awal hingga akhir, termasuk pemilihan vendor, negosiasi harga, dan kontrol kualitas bahan.",
+        "Mengelola pemesanan, pembayaran, dan pencatatan transaksi menggunakan dokumentasi terstruktur.",
+        "Berkoordinasi dengan vendor untuk memastikan produksi dan pengiriman merchandise tepat waktu.",
+        "Mendistribusikan PDH Teknik Elektro dan merchandise kepada mahasiswa dengan pencatatan yang rapi."
+      ],
+      "documentation": [
+        "/org/bume/doc1.png",
+        "/org/bume/doc2.jpg",
+        "/org/bume/doc3.jpg",
+        "/org/bume/doc4.png"
+      ],
+      "certificate": [
+        "/org/bume/cert.png"
+      ]
+    },
+    {
+      "role": "Ketua Divisi Media dan Informasi (Medinfo)",
+      "org": "Himpunan Mahasiswa Teknik Elektro – Universitas Tidar",
+      "period": "Mar 2023 – Sep 2024",
+      "logos": ["/logos/hmte.png", "/logos/dirandra.png"],
+      "cabinet": "Kabinet Dirandra Cakrawala",
+      "bullets": [
+        "Memimpin Divisi Media dan Informasi, mengoordinasikan tim beranggotakan 2 staf untuk mengelola kehadiran digital himpunan.",
+        "Merencanakan, menjadwalkan, dan mengeksekusi strategi konten media sosial untuk Instagram dan platform lainnya.",
+        "Merancang branding digital dan materi promosi acara, memastikan identitas visual konsisten.",
+        "Mengelola alur produksi konten: konsep, desain, penulisan caption, perencanaan feed, dan publikasi.",
+        "Membuat branding resmi acara orientasi mahasiswa Jurusan Teknik Elektro, Mekatronika dan Teknologi Informasi (ELCATION 2023), termasuk logo, poster, dan layout feed Instagram."
+      ],
+      "documentation": [
+        "/org/medinfo/doc1.jpg",
+        "/org/medinfo/doc2.png",
+        "/org/medinfo/doc3.png",
+        "/org/medinfo/doc4.png",
+        "/org/medinfo/doc5.png",
+        "/org/medinfo/doc6.png",
+        "/org/medinfo/doc7.png",
+        "/org/medinfo/doc8.png",
+        "/org/medinfo/doc9.png",
+        "/org/medinfo/doc10.png",
+        "/org/medinfo/doc11.png",
+        "/org/medinfo/doc12.png"
+      ],
+      "certificate": [
+        "/org/medinfo/cert.png"
+      ]
+    }
+  ]
+},
+
+"projectsSection": {
+  "title": "Proyek",
+  "items": [
+    {
+      "name": "Portfolio Web - Magelang, Indonesia",
+      "image": "/logos/porto.png",
+      "year": "2025",
+      "description": "Situs portofolio pribadi yang dirancang sebagai CV digital dan showcase proyek. Menampilkan profil, keahlian, sertifikasi, dan proyek dengan komponen interaktif dan desain modern.",
+"details": {
+  "overview": "Dikembangkan menggunakan Next.js 14 (App Router) dan React sebagai framework utama, dengan TailwindCSS untuk desain responsif modern, serta Framer Motion untuk animasi halus. Menggunakan Swiper.js untuk komponen carousel interaktif dan Context API untuk manajemen state, termasuk fitur multi-bahasa (Inggris, Indonesia, Korea, Jepang). Data proyek dimuat secara dinamis dari JSON agar mudah dikembangkan dan dipelihara. Dideploy di Vercel dengan optimisasi SEO dan desain responsif di semua perangkat.",
+  "features": {
+    "Frontend": [
+      "Next.js 14 dengan App Router untuk pengembangan modern berbasis React",
+      "React 18 dengan Server Components untuk rendering lebih optimal",
+      "TailwindCSS untuk styling responsif berbasis utility-first",
+      "Framer Motion untuk transisi halaman dan animasi yang halus",
+      "Swiper.js untuk carousel coverflow dan galeri gambar",
+      "Layout berbasis grid responsif yang optimal di semua ukuran layar"
+    ],
+    "Fungsionalitas": [
+      "Dukungan multi-bahasa (Inggris, Indonesia, Korea, Jepang) melalui Context API",
+      "Konten dimuat secara dinamis dari JSON (skills, sertifikasi, proyek, pengalaman)",
+      "Modal interaktif untuk menampilkan detail proyek dan pengalaman",
+      "Galeri gambar dengan zoom, terintegrasi dengan Swiper",
+      "Navigasi berbasis section dengan scroll halus",
+      "Tombol escape untuk menutup modal dan galeri",
+      "Desain ramah aksesibilitas dengan HTML semantik"
+    ],
+    "Performa & SEO": [
+      "Build dioptimalkan dengan Next.js Image dan code-splitting",
+      "Meta tag dan structured data untuk SEO",
+      "Lazy loading untuk gambar dan komponen",
+      "Desain responsif dan mobile-first",
+      "Deploy dioptimalkan untuk platform Vercel"
+    ],
+    "Kemudahan Pengelolaan & Skalabilitas": [
+      "Manajemen bahasa dan data terpusat menggunakan JSON + Context API",
+      "Komponen yang bisa digunakan ulang untuk section, card, dan modal",
+      "Struktur folder yang skalabel untuk pengembangan di masa depan"
+    ]
+  },
+        "documentation": [
+          "/project/porto/pfstr.png",
+          "/project/porto/pf1.png",
+          "/project/porto/pf2.png",
+          "/project/porto/pf3.png",
+          "/project/porto/pf4.png",
+          "/project/porto/pf5.png",
+          "/project/porto/pf6.png",
+          "/project/porto/pf7.png",
+          "/project/porto/pf8.png",
+          "/project/porto/pf9.png"
+        ]
+      }
+    },
+    {
+      "name": "D’SIBI Camera - Magelang, Indonesia",
+      "image": "/logos/dsibi.png",
+      "year": "2025",
+      "description": "Sistem deteksi real-time untuk gerakan SIBI (Bahasa Isyarat Indonesia) menggunakan YOLOv8. Dirancang untuk mengenali gestur tangan A–Z dengan akurasi tinggi dan memberikan alat bantu untuk komunikasi dan pembelajaran.",
+      "details": {
+      "overview": "D’SIBI Camera adalah aplikasi berbasis AI yang dikembangkan untuk deteksi real-time alfabet SIBI (A–Z) menggunakan metode deep learning YOLOv8 dan SSD. Sistem ini dilatih pada dataset berisi 2600 gambar (100 per kelas) yang dikumpulkan dari beberapa peserta dengan variasi jarak dan sudut, termasuk huruf dinamis (J dan Z) yang diambil dari video. Dengan akurasi lebih dari 90%, sistem dapat dijalankan menggunakan webcam atau input smartphone (via DroidCam), mendukung perekaman video otomatis dengan bounding box, label, skor kepercayaan, dan overlay FPS. Dirancang untuk komunikasi inklusif, dukungan pendidikan di sekolah khusus, dan penelitian pengenalan bahasa isyarat. Sistem membutuhkan Python 3.8+, RAM 8GB, dan akselerasi GPU untuk performa optimal.",
+      "features": {
+      "Deteksi": [
+      "Deteksi real-time alfabet SIBI A–Z dengan akurasi tinggi",
+      "Bounding box di sekitar gestur tangan yang terdeteksi",
+      "Menampilkan label untuk huruf yang dikenali",
+      "Skor kepercayaan ditampilkan untuk setiap prediksi",
+      "Counter FPS (frames per second) ditampilkan selama deteksi"
+    ],
+    "Kontrol": [
+      "Tekan 'S' → simpan snapshot dengan label dan skor kepercayaan ke folder captures/",
+      "Tekan 'Q' → keluar program dengan aman, menutup jendela kamera, dan melepaskan sumber daya"
+    ],
+    "Perekaman": [
+      "Perekaman video otomatis sejak deteksi dimulai",
+      "Video disimpan di direktori records/ dengan penamaan berurutan (record_sibi1.mp4, record_sibi2.mp4, ...)",
+      "Setiap frame menyertakan bounding box, label, skor kepercayaan, dan overlay FPS"
+    ],
+    "Dataset": [
+      "2600 gambar untuk 26 kelas SIBI (A–Z)",
+      "100 gambar per kelas dikumpulkan dari 2 peserta",
+      "Variasi jarak, posisi tangan, dan sudut kamera",
+      "Huruf dinamis (J dan Z) diambil dari frame video"
+    ],
+    "Persyaratan Sistem": [
+      "Sistem Operasi: Windows",
+      "Python 3.8+ dengan library yang dibutuhkan (OpenCV, Ultralytics YOLO, dll.)",
+      "RAM minimal: 8 GB",
+      "GPU direkomendasikan: NVIDIA untuk performa optimal"
+    ],
+    "Kasus Penggunaan": [
+      "Teknologi bantu untuk komunikasi tunarungu dan sulit dengar",
+      "Alat bantu belajar SIBI di sekolah khusus (SLB)",
+      "Alat penelitian untuk pengenalan bahasa isyarat di Indonesia"
+    ]
+  },
+        "documentation": [
+          "/project/dsibi/ds1.png",
+          "/project/dsibi/ds2.png",
+          "/project/dsibi/ds3.png",
+          "/project/dsibi/ds4.png",
+          "/project/dsibi/ds5.png",
+          "/project/dsibi/ds6.png",
+          "/project/dsibi/ds7.png"
+        ],
+        "Lisensi": {
+          "text": "Hak Kekayaan Intelektual (HKI)",
+          "image": "/project/dsibi/hkik.png"
+        }
+      }
+    },
+    {
+    "name": "WaafStock Mobile - Magelang, Indonesia",
+    "image": "/logos/wamo.png",
+    "year": "2024",
+   "description": "Aplikasi mobile Android yang dikembangkan menggunakan Java dan Volley untuk staf dan manajer. Mendukung permintaan barang, persetujuan, pemantauan stok, dan riwayat transaksi yang tersinkronisasi dengan WaafStock Server API.",
+"details": {
+  "overview": "Aplikasi Mobile WaafStock adalah versi Android dari sistem inventaris WaafStock, dikembangkan menggunakan Java dengan integrasi Volley API. Menyediakan antarmuka yang sederhana dan ramah pengguna bagi staf dan manajer untuk mengelola aktivitas terkait stok langsung dari perangkat mobile. Aplikasi ini sepenuhnya terintegrasi dengan WaafStock Server API, sehingga memastikan sinkronisasi real-time dengan platform web. Staf dapat login dengan aman, mengajukan permintaan barang, melihat ketersediaan stok, dan melacak status permintaan, sementara manajer dapat login, meninjau daftar permintaan, menyetujui atau menolak permintaan, serta memantau tingkat stok. Sistem ini menjamin akses berbasis peran, data terpusat, dan penggunaan lintas platform yang lancar.",
+  "features": {
+    "Peran Staf": [
+      "Login aman menggunakan kredensial staf yang divalidasi melalui database",
+      "Mengajukan permintaan barang baru melalui formulir mobile yang sederhana dan responsif",
+      "Melihat stok inventaris yang tersedia secara real-time",
+      "Memeriksa status permintaan: pending, disetujui, atau ditolak",
+      "Mengakses riwayat permintaan pribadi untuk akuntabilitas dan transparansi"
+    ],
+    "Peran Manajer": [
+      "Login dengan kredensial manajer untuk akses aman",
+      "Meninjau daftar permintaan yang sedang menunggu persetujuan dari staf",
+      "Menyetujui atau menolak permintaan langsung dari aplikasi mobile",
+      "Memantau tingkat stok dan ketersediaan saat ini",
+      "Mengakses riwayat permintaan dan persetujuan lengkap untuk tujuan audit"
+    ],
+    "Integrasi": [
+      "Library Volley untuk komunikasi REST API yang efisien",
+      "Penanganan respons berbasis JSON yang aman dengan validasi kesalahan",
+      "Sinkronisasi real-time antara platform mobile dan web melalui WaafStock Server API",
+      "Konsistensi lintas platform untuk menjaga integritas data di semua perangkat"
+    ]
+  },
+      "documentation": [
+        "/project/wamo/wm1.png",
+        "/project/wamo/wm2.png",
+        "/project/wamo/wm3.png",
+        "/project/wamo/wm4.png",
+        "/project/wamo/wm5.png",
+        "/project/wamo/wm6.png",
+        "/project/wamo/wm7.png",
+        "/project/wamo/wm8.png",
+        "/project/wamo/wm9.png"
+      ]
+    }
+  },
+  {
+    "name": "WaafStock Web - Magelang, Indonesia",
+    "image": "/logos/wawe.png",
+    "year": "2024",
+    "description": "Platform web dengan peran Manager dan Staf untuk manajemen inventaris dan permintaan. Menyediakan dashboard, grafik, dan riwayat dengan integrasi REST API.",
+    "details": {
+      "overview": "Aplikasi Web WaafStock dirancang sebagai antarmuka utama untuk manajemen inventaris dan permintaan. Dibangun menggunakan HTML, CSS, dan JavaScript (Fetch API) serta terintegrasi dengan WaafStock Server REST API, menyediakan lingkungan responsif berbasis peran bagi staf dan manajer. Staf dapat login untuk mengajukan permintaan, memeriksa stok, dan melacak riwayat pribadi, sementara manajer memiliki dashboard, alur persetujuan, dan alat pemantauan untuk mengawasi inventaris dan aktivitas staf. Platform ini menampilkan visualisasi data melalui grafik dan log, memberikan wawasan bagi manajer tentang tren inventaris dan statistik permintaan, sekaligus menjamin transparansi dan akuntabilitas sistem.",
+      "features": {
+        "Peran Manajer": [
+          "Login menggunakan kredensial manajer untuk akses aman",
+          "Dashboard dengan grafik real-time menampilkan total permintaan, rasio persetujuan, dan tren stok",
+          "Menyetujui atau menolak permintaan barang yang diajukan staf",
+          "Melihat dan memantau tingkat stok inventaris (hanya baca, pembaruan dilakukan oleh Admin)",
+          "Mengakses riwayat permintaan lengkap, dapat difilter berdasarkan pengguna, tanggal, atau item",
+          "Audit trail transparan untuk melacak keputusan dan akuntabilitas"
+        ],
+        "Peran Staf": [
+          "Login aman dengan kredensial staf",
+          "Mengajukan permintaan barang baru melalui formulir terstruktur",
+          "Memeriksa status permintaan secara real-time (pending, disetujui, ditolak)",
+          "Melihat stok yang tersedia untuk membuat permintaan yang tepat",
+          "Mengakses riwayat permintaan dan persetujuan pribadi untuk pencatatan"
+        ],
+        "Integrasi": [
+          "Fetch API untuk panggilan REST API dengan format JSON terstruktur",
+          "UI responsif untuk penggunaan lintas perangkat",
+          "Pemisahan fitur berbasis peran (Manager vs. Staf) untuk keamanan dan kejelasan",
+          "Manajemen data terpusat melalui WaafStock Server API"
+        ]
+      },
+      "documentation": [
+        "/project/wawe/ww1.png",
+        "/project/wawe/ww2.png",
+        "/project/wawe/ww3.png",
+        "/project/wawe/ww4.png",
+        "/project/wawe/ww5.png",
+        "/project/wawe/ww6.png",
+        "/project/wawe/ww7.png",
+        "/project/wawe/ww8.png",
+        "/project/wawe/ww9.png",
+        "/project/wawe/ww10.png"
+      ]
+    }
+  },
+  {
+    "name": "WaafStock Server - Magelang, Indonesia",
+    "image": "/logos/wase.png",
+    "year": "2024",
+     "description": "Sistem backend yang dibangun dengan Node.js dan Express, menyediakan REST API. Menangani autentikasi, akses berbasis peran, manajemen inventaris, dan pelacakan permintaan dengan otorisasi JWT yang aman.",
+  "details": {
+    "overview": "WaafStock Server adalah tulang punggung seluruh sistem WaafStock, dibangun menggunakan Node.js dan Express, dengan database MySQL terpusat. Server menyediakan REST API untuk aplikasi web dan mobile, mendukung autentikasi aman, manajemen inventaris, penanganan permintaan, dan audit. Akses berbasis peran diterapkan melalui JWT, memastikan staf, manajer, dan admin hanya dapat mengakses fitur sesuai perannya. Admin memiliki kontrol penuh atas akun pengguna, data inventaris, dan riwayat permintaan, manajer menangani persetujuan, dan staf fokus pada pengajuan permintaan. Dengan fitur CRUD, pelacakan riwayat, dan statistik permintaan, server memastikan manajemen inventaris yang aman, transparan, dan efisien lintas platform.",
+    "features": {
+      "Peran Admin": [
+        "Kontrol penuh atas sistem dengan administrasi terpusat",
+        "Mengelola semua akun terdaftar (Manager & Staf) dengan operasi CRUD",
+        "Operasi CRUD untuk item inventaris (menambah item baru, memperbarui stok, menghapus item)",
+        "Mengakses seluruh riwayat permintaan di sistem",
+        "Menghasilkan dan melihat statistik (total permintaan, disetujui, pending, ditolak)",
+        "Laporan visual berbentuk grafik batang untuk wawasan pengambilan keputusan"
+      ],
+      "Peran Manajer": [
+        "Menyetujui atau menolak permintaan yang diajukan staf",
+        "Melihat stok inventaris (akses hanya baca, pembaruan dilakukan Admin)",
+        "Mengakses riwayat permintaan dengan filter detail berdasarkan pengguna, item, atau tanggal",
+        "Dashboard dengan wawasan seperti total permintaan dan rasio persetujuan",
+        "Menjaga transparansi melalui log keputusan berbasis peran"
+      ],
+      "Peran Staf": [
+        "Login aman menggunakan kredensial staf",
+        "Mengajukan permintaan barang ke manajer untuk disetujui",
+        "Melacak status permintaan (pending, disetujui, ditolak)",
+        "Mengakses riwayat permintaan dan persetujuan pribadi kapan saja"
+      ],
+      "Layanan API": [
+        "REST API dengan format respons JSON terstruktur",
+        "Autentikasi & otorisasi berbasis peran menggunakan JWT",
+        "Database aman dan skalabel menggunakan MySQL untuk manajemen stok terpusat",
+        "Dukungan lintas platform untuk aplikasi web dan mobile",
+        "Penanganan kesalahan dan validasi respons aman untuk keandalan"
+      ]
+      },
+      "documentation": [
+        "/project/wase/ws1.png",
+        "/project/wase/ws2.png",
+        "/project/wase/ws3.png",
+        "/project/wase/ws4.png",
+        "/project/wase/ws5.png",
+        "/project/wase/ws6.png"
+      ]
+    }
+  },
+    {
+  "name": "Sistem Kendali Gorden Otomatis - Magelang, Indonesia",
+  "image": "/logos/acur.png",
+  "year": "2023",
+  "description": "Sistem berbasis mikrokontroler untuk pengendalian tirai otomatis menggunakan ATmega16. Memanfaatkan sensor cahaya untuk menggerakkan servo motor, memungkinkan otomasi pintar dan hemat energi.",
+    "details": {
+      "overview": "Sistem Pengendalian Tirai Otomatis adalah prototipe IoT yang dikembangkan sebagai proyek otomasi rumah pintar. Sistem ini menggunakan mikrokontroler ATmega16 yang diprogram dengan bahasa C untuk mengatur pergerakan tirai berdasarkan intensitas cahaya sekitar. Sensor LDR (Light Dependent Resistor) mendeteksi tingkat cahaya secara terus-menerus, dan sistem secara otomatis membuka atau menutup tirai dengan menggerakkan servo motor. Hal ini memungkinkan optimasi cahaya alami di siang hari dan privasi di malam hari, mengurangi kebutuhan operasi tirai manual. Sistem ini dirancang, disimulasikan, dan diuji menggunakan Proteus sebelum diimplementasikan sebagai prototipe hardware yang berfungsi, menunjukkan integrasi antara sensor, mikrokontroler, dan aktuator dalam lingkungan nyata.",
+      "features": {
+        "Hardware": [
+          "Mikrokontroler ATmega16 sebagai pengendali utama",
+          "Sensor LDR untuk mengukur intensitas cahaya sekitar",
+          "Servo motor terhubung ke rel tirai untuk membuka dan menutup",
+          "Rangkaian regulator tegangan untuk menstabilkan catu daya",
+          "Prototipe hardware diuji di breadboard lalu diintegrasikan ke model demo"
+        ],
+        "Software": [
+          "Pemrograman C untuk firmware ATmega16",
+          "Logika khusus untuk mengubah pembacaan LDR menjadi sinyal kontrol servo motor",
+          "Sistem berbasis ambang batas untuk menentukan posisi buka/tutup secara otomatis",
+          "Desain sirkuit dan simulasi menggunakan Proteus",
+          "Debugging langkah demi langkah dan validasi demo langsung dengan hardware nyata"
+        ],
+        "Fungsional": [
+          "Tirai terbuka otomatis ketika cahaya sekitar melebihi ambang yang ditentukan",
+          "Tirai menutup otomatis ketika tingkat cahaya berada di bawah ambang",
+          "Pengaturan manual memungkinkan melalui reset mikrokontroler atau pemrograman ulang",
+          "Hemat energi dengan memaksimalkan pencahayaan alami di siang hari",
+          "Prototipe IoT hemat biaya dan skalabel untuk aplikasi rumah pintar"
+        ]
+    },
+    "documentation": [
+      "/project/acur/ac1.png",
+      "/project/acur/ac2.png"
+    ]
+  }
+}
+  ]
+},
+
+  "certificationsSection": {
+    "title": "Sertifikasi",
+    "items": [
+      {
+        "name": "Generative AI Certified Professional",
+        "issuer": "Oracle Corporation",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/e/e1/Oracle_Corporation_logo.svg"],
+        "previewImg": "/certificates/previews/oracle-generative-ai.jpg",
+        "pdf": "/certificates/oracle-generative-ai.pdf"
+      },
+      {
+        "name": "Data Science Certified Professional",
+        "issuer": "Oracle Corporation",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/e/e1/Oracle_Corporation_logo.svg"],
+        "previewImg": "/certificates/previews/oracle-datascience.jpg",
+        "pdf": "/certificates/oracle-datascience.pdf"
+      },
+      {
+        "name": "AI Vector Search Certified Professional",
+        "issuer": "Oracle Corporation",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/e/e1/Oracle_Corporation_logo.svg"],
+        "previewImg": "/certificates/previews/oracle-vectorsearch.jpg",
+        "pdf": "/certificates/oracle-vectorsearch.pdf"
+      },
+      {
+        "name": "Fusion AI Agent Studio Foundations",
+        "issuer": "Oracle Corporation",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/e/e1/Oracle_Corporation_logo.svg"],
+        "previewImg": "/certificates/previews/oracle-fusion-ai.jpg",
+        "pdf": "/certificates/oracle-fusion-ai.pdf"
+      },
+      {
+        "name": "Foundational Programming C#",
+        "issuer": "Microsoft x freeCodeCamp",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg", "/logos/freecodecamp.svg"],
+        "previewImg": "/certificates/previews/foundational-programming-csharp.jpg",
+        "pdf": "/certificates/foundational-programming-csharp.pdf"
+      },
+      {
+        "name": "Machine Learning with Python",
+        "issuer": "freeCodeCamp",
+        "year": "2025",
+        "logos": ["/logos/freecodecamp.svg"],
+        "previewImg": "/certificates/previews/machine-learning-python.jpg",
+        "pdf": "/certificates/machine-learning-python.pdf"
+      },
+      {
+        "name": "AI – Powered Performance Ads",
+        "issuer": "Google",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"],
+        "previewImg": "/certificates/previews/google-ai-ads.jpg",
+        "pdf": "/certificates/google-ai-ads.pdf"
+      },
+      {
+        "name": "Generative AI with Diffusion Models",
+        "issuer": "Amazon Web Services",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"],
+        "previewImg": "/certificates/previews/aws-diffusion.jpg",
+        "pdf": "/certificates/aws-diffusion.pdf"
+      },
+      {
+        "name": "Foundational of Prompt Engineering",
+        "issuer": "Amazon Web Services",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"],
+        "previewImg": "/certificates/previews/aws-prompt.jpg",
+        "pdf": "/certificates/aws-prompt.pdf"
+      },
+      {
+        "name": "TOEFL Prediction Test",
+        "issuer": "Universitas Tidar",
+        "year": "2025",
+        "logos": ["/logos/untidar.png"],
+        "previewImg": "/certificates/previews/untidar-toefl.jpg",
+        "pdf": "/certificates/untidar-toefl.pdf"
+      }
+    ]
+  },
+
+  "skillsSection": {
+    "title": "Keahlian",
+    "categories": [
+      {
+        "category": "Bahasa Pemrograman",
+        "items": [
+          { "name": "Python", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+          { "name": "C", "icon": "logos/c.png" },
+          { "name": "C++", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
+          { "name": "SQL", "icon": "logos/sql.png" },
+          { "name": "JavaScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+          { "name": "Java", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+          { "name": "Kotlin", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" },
+          { "name": "HTML", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+          { "name": "PHP", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" },
+          { "name": "TypeScript", "icon": "logos/ts.png" },
+          { "name": "JSON", "icon": "logos/json.png" }
+        ]
+      },
+      {
+        "category": "Perangkat AI",
+        "items": [
+          { "name": "Google Colab", "icon": "https://cdn.simpleicons.org/googlecolab" },
+          { "name": "Jupyter Notebook", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" },
+          { "name": "Roboflow", "icon": "https://cdn.simpleicons.org/roboflow" },
+          { "name": "LabelImg", "icon": "logos/labelimg.png" },
+          { "name": "Tensorflow", "icon": "logos/tensorf.png" },
+          { "name": "Ultralytics", "icon": "logos/ult.png" },
+          { "name": "OpenCV", "icon": "logos/opencv.png" }
+        ]
+      },
+      {
+        "category": "Perangkat Pemrograman",
+        "items": [
+          { "name": "VS Code", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
+          { "name": "Android Studio", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" },
+          { "name": "Code::Blocks", "icon": "logos/cb.png" },
+          { "name": "Dev C++", "icon": "logos/devc.png" }
+        ]
+      },
+      {
+        "category": "Jaringan",
+        "items": [
+          { "name": "Cisco Packet Tracer", "icon": "https://cdn.simpleicons.org/cisco" },
+          { "name": "Konfigurasi CLI", "icon": "https://cdn.simpleicons.org/gnometerminal" },
+          { "name": "Pemecahan Masalah", "icon": "logos/trouble.png" },
+          { "name": "Routing", "icon": "logos/router.png" }
+        ]
+      },
+      {
+        "category": "Perangkat Administrasi",
+        "items": [
+          { "name": "Microsoft Word", "icon": "logos/msword.png" },
+          { "name": "Microsoft PowerPoint", "icon": "logos/mspp.png" },
+          { "name": "Microsoft Excel", "icon": "logos/msexcel.png" },
+          { "name": "Google Docs", "icon": "https://cdn.simpleicons.org/googledocs" },
+          { "name": "Google Forms", "icon": "https://cdn.simpleicons.org/googleforms" },
+          { "name": "Google Sheets", "icon": "https://cdn.simpleicons.org/googlesheets" }
+        ]
+      },
+      {
+        "category": "Perangkat Desain",
+        "items": [
+          { "name": "CorelDRAW", "icon": "https://cdn.simpleicons.org/coreldraw" },
+          { "name": "Canva", "icon": "logos/canva.png" },
+          { "name": "Adobe Illustrator", "icon": "logos/ai.png" }
+        ]
+      },
+      {
+      "category": "Pengembangan Web",
+        "items": [
+          { "name": "React.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+          { "name": "Next.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+          { "name": "Framer Motion", "icon": "logos/framer.png" },
+          { "name": "Swiper", "icon": "logos/swiper.svg" },
+          { "name": "Node.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" }
+        ]
+      },
+      {
+        "category": "Manajer Proyek",
+        "items": [
+          { "name": "Management", "icon": "https://cdn.simpleicons.org/trello" },
+          { "name": "Reporting", "icon": "logos/report.png" },
+          { "name": "Google Calendar", "icon": "logos/gcal.png" }
+        ]
+      },
+      {
+        "category": "Perangkat Teknis",
+        "items": [
+          { "name": "Arduino IDE", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" },
+          { "name": "Microchip Studio", "icon": "logos/microchip.png" }
+        ]
+      }
+    ]
+  },
+
+"contactSection": {
+  "title": "Kontak",
+  "subtitle": "Hubungi Saya",
+  "mediaTitle": "Media Sosial",
+  "contacts": [
+    {
+      "name": "WhatsApp",
+      "href": "https://wa.me/6289606366195",
+      "icon": "logos/whatsapp.png",
+      "text": "+6289606366195",
+      "hover": "hover:bg-green-500/70"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:feryandrn@gmail.com",
+      "icon": "logos/gmail.png",
+      "text": "feryandrn@gmail.com",
+      "hover": "hover:bg-red-500/70"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://id.linkedin.com/in/fery-andrean-5a03252bb",
+      "icon": "logos/linkedin.png",
+      "text": "Fery Andrean",
+      "hover": "hover:bg-blue-600/70"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/FerrrAndrn",
+      "icon": "logos/github.png",
+      "text": "github.com/FerrrAndrn",
+      "hover": "hover:bg-gray-700/70"
+    },
+    {
+      "name": "Instagram",
+      "href": "https://www.instagram.com/fery_andrn",
+      "icon": "logos/ig.png",
+      "text": "@fery_andrn",
+      "hover": "hover:bg-gradient-to-r hover:from-[#9c27b0b3] hover:via-[#e91e63b3] hover:to-[#ff9800b3]"
+    }
+  ],
+  "addressTitle": "Alamat",
+  "address": "Jalan Pandansari Barat, Mantenan RT 02 / RW 01, Mertoyudan, Magelang, Jawa, Indonesia (56172)"
+},
+
+  "viewCertificate": "Lihat Sertifikat",
+  "viewDetails": "Lihat Detail"
+}

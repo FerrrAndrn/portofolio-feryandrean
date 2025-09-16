@@ -1,39 +1,37 @@
-export default function About() {
-  return (
-    <section id="about" className="py-20 bg-[#f4f4f9]">
-      <div className="container mx-auto px-6">
-        {/* Judul tetap center */}
-        <h2 className="text-3xl font-bold mb-8 text-center bg-gradient-to-r from-[#001f3f] via-[#003366] to-[#001f3f] bg-clip-text text-transparent">
-          About Me
-        </h2>
+"use client";
+import { useLanguage } from "@/context/LanguageContext";
+import Section from "@/component/section";
+import { motion } from "framer-motion";
 
-        {/* Card isi */}
-        <div className="max-w-3xl mx-auto bg-white/80 shadow-lg rounded-xl p-8 backdrop-blur">
-          <p className="text-lg text-gray-800 leading-relaxed text-justify">
-            Bachelor of Electrical Engineering{" "}
-            <span className="font-semibold text-[#004080]">
-              (Computer and Information Systems concentration – Universitas Tidar)
-            </span>{" "}
-            specializing in{" "}
-            <span className="font-semibold text-[#004080]">
-              Artificial Intelligence, Computer Systems, and Software Development
-            </span>. Experienced in designing and implementing{" "}
-            <span className="font-semibold text-[#004080]">
-              Deep Learning–based systems
-            </span>
-            , developing{" "}
-            <span className="font-semibold text-[#004080]">
-              web and mobile applications
-            </span>
-            , and managing{" "}
-            <span className="font-semibold text-[#004080]">databases</span>. Skilled in{" "}
-            <span className="font-semibold text-[#004080]">
-              problem-solving, teamwork, and adaptability
-            </span>{" "}
-            to create efficient and innovative solutions.
-          </p>
+export default function About() {
+  const { t } = useLanguage();
+
+  return (
+    <Section
+      id="about"
+      className="bg-[#eff0f1] shadow-[0_7px_7px_rgba(0,0,0,0.4)]"
+      title={
+        <div className="flex justify-center">
+          <span className="text-3xl font-bold mb-5 title-gradient drop-shadow-md">
+            {t("aboutSection.title")}
+          </span>
         </div>
-      </div>
-    </section>
+      }
+    >
+      <motion.div
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: false }}
+        transition={{ duration: 0.9, ease: "easeOut" }}
+        className="max-w-3xl mx-auto bg-white/95 rounded-xl p-4 backdrop-blur
+          shadow-[0_4px_10px_rgba(0,0,0,0.3)]
+          transition-all duration-300 ease-out
+          hover:-translate-y-3 hover:shadow-[0_8px_20px_rgba(0,0,0,0.45)]"
+      >
+        <p className="text-lg text-gray-800 leading-relaxed text-justify">
+          {t("aboutSection.content")}
+        </p>
+      </motion.div>
+    </Section>
   );
 }

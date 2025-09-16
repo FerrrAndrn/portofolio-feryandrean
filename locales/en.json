@@ -1,0 +1,772 @@
+{
+  "home": "Home",
+  "about": "About",
+  "experience": "Experience",
+  "projects": "Projects",
+  "education": "Education",
+  "organization": "Organization",
+  "certifications": "Certifications",
+  "skills": "Skills",
+  "contact": "Contact",
+  "jobdesc": "Jobdesc",
+  "overview": "Overview",
+  "documentation": "Documentation",
+  "certificate": "Certificate",
+  "features" : "features",
+  "license" : "license",
+  "close" : "Close",
+
+"hero": {
+  "hello": "Hello,",
+  "typing": "I Am Fery Andrean",
+  "role": "Web & Mobile Developer | AI Engineer | Electrical Engineering",
+  "experience": "Ex-Intern PT. Telekomunikasi Indonesia",
+  "button": "Let's Talk"
+},
+
+  "aboutSection": {
+  "title": "About Me",
+  "content": "Bachelor of Electrical Engineering (Computer and Information Systems concentration – Tidar University) specializing in Artificial Intelligence, Computer Systems, and Software Development. Experienced in designing and implementing Deep Learning–based systems, developing web and mobile applications, and managing databases. Skilled in problem-solving, teamwork, and adaptability to create efficient and innovative solutions. Passionate about leveraging AI and emerging technologies to build impactful products that bridge the gap between engineering and real-world applications. Continuously seeking opportunities to grow, collaborate, and contribute to innovative projects."
+},
+
+ "experienceSection": {
+  "title": "Experience",
+  "items": [
+    {
+      "role": "Staff Internet Support (IS) Intern",
+      "orgKey": "telkom",
+      "org": "PT. Telekomunikasi Indonesia WITEL Magelang – Magelang, Indonesia",
+      "period": "Aug 2024 – Sep 2024",
+      "bullets": [
+        "Monitored real-time internet performance across Metro areas.",
+        "Conducted troubleshooting for connectivity issues.",
+        "Configured VLAN networks using Cisco Catalyst.",
+        "Performed installation and maintenance for stable connectivity."
+      ],
+      "documentation": [
+        "/docs/1is.jpeg",
+        "/docs/2is.jpeg",
+        "/docs/3is.jpeg",
+        "/docs/4is.jpeg",
+        "/docs/5is.jpeg",
+        "/docs/6is.jpeg"
+      ],
+      "certificate": [
+        "/certificates/telkomser.jpg"
+      ]
+      },
+
+      {
+        "role": "Staff Digital Energy and Facility (DEFA) Intern",
+        "orgKey": "telkom",
+        "org": "PT. Telekomunikasi Indonesia WITEL Magelang – Magelang, Indonesia",
+        "period": "Aug 2024 – Sep 2024",
+        "bullets": [ "Performed daily checklist for genset room AC and power distribution systems.", "Checked genset oil condition and measured three-phase voltage and current on the main distribution panel.", "Tested pH levels of large-capacity batteries as backup power when genset malfunctioned.", "Contributed to maintaining energy infrastructure and facility readiness at Witel Magelang." 
+      ],
+        "documentation": [
+        "/docs/1def.jpeg",
+        "/docs/2def.jpeg",
+        "/docs/3def.jpeg",
+        "/docs/4def.jpeg",
+        "/docs/5def.jpeg",
+        "/docs/6def.jpeg"
+      ],
+      "certificate": [
+        "/certificates/telkomser.jpg"
+      ]
+      },
+
+      {
+        "role": "IT Support Intern",
+        "orgKey": "pemkot",
+        "org": "Department of Communication, Information, and Statistics of Magelang City – Magelang, Indonesia",
+        "period": "Jan 2022 – Mar 2022",
+        "bullets": [ "Installed indoor and outdoor access points in Magelang City Government environment.", "Monitored and ensured CCTV units functioned optimally.", "Handled immediate repairs for CCTV system failures.", "Conducted routine weekly CCTV maintenance to maintain reliability."
+      ],
+      "documentation": [
+        "/docs/1dis.jpg",
+        "/docs/2dis.jpg",
+        "/docs/3dis.jpg"
+      ],
+      "certificate": [
+        "/certificates/diser.jpg"
+      ]
+      }
+    ]
+  },
+
+"educationSection": {
+  "title": "Education",
+  "university": "Tidar University – Bachelor of Electrical Engineering",
+  "period": "2021 - 2025",
+  "gpa": "GPA : 3.60 / 4.00",
+  "relevantTitle": "Relevant Coursework",
+  "relevant": [
+    "Artificial Intelligence",
+    "Programming",
+    "Digital Image Processing",
+    "Database Management Systems (DBMS)",
+    "Web Programming",
+    "Mobile Application Development",
+    "Web Services API",
+    "Computer Networks"
+  ],
+  "labTitle": "Laboratory Assistant",
+ "laboratory": [
+  {
+    "name": "Programming",
+    "previewImg": "/certificates/lec/pem.png",
+    "pdf": "/certificates/lec/pem.pdf",
+    "jobdesc": [
+      "Guided students through 14 sessions to master programming fundamentals using the C language.",
+      "Provided one-on-one support during lab activities to improve problem-solving skills.",
+      "Assessed student performance through structured live coding examinations."
+    ],
+    "date": "Sept 2023 – Dec 2023"
+  },
+  {
+    "name": "Control Systems",
+    "previewImg": "/certificates/lec/ken.png",
+    "pdf": "/certificates/lec/ken.pdf",
+    "jobdesc": [
+      "Facilitated 14 laboratory sessions covering control theory, system dynamics, and feedback mechanisms.",
+      "Supported students in hands-on projects involving real-time system control builds.",
+      "Evaluated competencies through practical demonstrations and live implementations."
+    ],
+    "date": "Feb 2024 – June 2024"
+  },
+  {
+    "name": "Advanced Programming",
+    "previewImg": "/certificates/lec/peml.png",
+    "pdf": "/certificates/lec/peml.pdf",
+    "jobdesc": [
+      "Supervised advanced programming labs focusing on C++ object-oriented programming concepts.",
+      "Conducted 14 sessions that emphasized algorithm optimization and data structures.",
+      "Assessed students through live coding tests and problem-solving exercises."
+    ],
+    "date": "Sept 2024 – Dec 2024"
+  },
+  {
+    "name": "Advanced Computer Networks",
+    "previewImg": "/certificates/lec/jarl.png",
+    "pdf": "/certificates/lec/jarl.pdf",
+    "jobdesc": [
+      "Designed and developed lab modules for Advanced Computer Networks using Cisco Packet Tracer.",
+      "Led 14 sessions teaching network configuration, routing, and troubleshooting techniques.",
+      "Evaluated student skills through live simulation exams and group projects."
+    ],
+    "date": "Feb 2025 – June 2025"
+  }
+],
+  "lecTitle": "Lecturer Assistant",
+  "lecturer": [
+  {
+    "name": "Basic Telecommunications",
+    "previewImg": "/certificates/lec/teld.png",
+    "pdf": "/certificates/lec/teld.pdf",
+    "jobdesc": [
+      "Assisted the lecturer in developing and structuring learning modules for Basic Telecommunications.",
+      "Monitored and guided student progress during course activities and discussions.",
+      "Evaluated final project presentations, providing feedback on technical accuracy and delivery."
+    ],
+    "date": "Feb 2024 – June 2024"
+  },
+  {
+    "name": "Project Management",
+    "previewImg": "/certificates/lec/manp.png",
+    "pdf": "/certificates/lec/manp.pdf",
+    "jobdesc": [
+      "Collaborated with the lecturer to prepare teaching materials on project planning and execution.",
+      "Facilitated discussions to help students understand project management methodologies (Agile, Waterfall).",
+      "Assessed student final projects, ensuring correct application of project management frameworks."
+    ],
+    "date": "Sept 2024 – Dec 2024"
+  },
+  {
+    "name": "Software Engineering",
+    "previewImg": "/certificates/lec/rpl.png",
+    "pdf": "/certificates/lec/rpl.pdf",
+    "jobdesc": [
+      "Reviewed and graded assignments, midterms, and final examinations for the Software Engineering course.",
+      "Guided students in applying software development life cycle (SDLC) principles to their projects.",
+      "Assessed project presentations and simulations, focusing on software design and implementation quality."
+    ],
+    "date": "Feb 2025 – June 2025"
+  }
+]
+},
+
+"organizationSection": {
+  "title": "Organization",
+  "items": [
+    {
+      "role": "Staff of the State-Owned Electrical Engineering Enterprise (BUME)",
+      "org": "Electrical Engineering Student Association – Tidar University",
+      "period": "Mar 2022 – Sep 2023",
+      "logos": ["/logos/hmte.png", "/logos/abhinaya.png"],
+      "cabinet": "Abhinaya Aksata Cabinet",
+      "bullets": [
+        "Designed and standardized official jackets and merchandise for the 2022 Electrical Engineering student intake.",
+        "Handled end-to-end procurement process including vendor selection, price negotiation, and quality control.",
+        "Managed ordering, payments, and transaction recording using structured documentation.",
+        "Coordinated with suppliers to ensure timely production and delivery of merchandise.",
+        "Distributed official wear and merchandise to students with proper record keeping."
+      ],
+      "documentation": [
+        "/org/bume/doc1.png",
+        "/org/bume/doc2.jpg",
+        "/org/bume/doc3.jpg",
+        "/org/bume/doc4.png"
+      ],
+      "certificate": [
+        "/org/bume/cert.png"
+      ]
+    },
+    {
+      "role": "Head of the Media and Information Division (Medinfo)",
+      "org": "Electrical Engineering Student Association – Tidar University",
+      "period": "Mar 2023 – Sep 2024",
+      "logos": ["/logos/hmte.png", "/logos/dirandra.png"],
+      "cabinet": "Dirandra Cakrawala Cabinet",
+      "bullets": [
+        "Led the Media and Information Division, coordinating a team of 2 staff to manage the association’s digital presence.",
+        "Planned, scheduled, and executed social media content strategy for Instagram and other platforms.",
+        "Designed digital branding and event promotional materials, ensuring consistent visual identity.",
+        "Managed content production workflow: concept, design, caption writing, feed planning, and publishing.",
+        "Produced official event branding for the student orientation (ELCATION 2023), including logos, posters, and Instagram feed layout."
+      ],
+      "documentation": [
+        "/org/medinfo/doc1.jpg",
+        "/org/medinfo/doc2.png",
+        "/org/medinfo/doc3.png",
+        "/org/medinfo/doc4.png",
+        "/org/medinfo/doc5.png",
+        "/org/medinfo/doc6.png",
+        "/org/medinfo/doc7.png",
+        "/org/medinfo/doc8.png",
+        "/org/medinfo/doc9.png",
+        "/org/medinfo/doc10.png",
+        "/org/medinfo/doc11.png",
+        "/org/medinfo/doc12.png"
+      ],
+      "certificate": [
+        "/org/medinfo/cert.png"
+      ]
+    }
+  ]
+},
+
+"projectsSection": {
+  "title": "Projects",
+  "items": [
+    {
+      "name": "Portfolio Web - Magelang, Indonesia",
+      "image": "/logos/porto.png",
+      "year": "2025",
+      "description": "A personal portfolio website designed as a digital CV and project showcase. It highlights profile, skills, certifications, and projects with interactive components and a modern design.",
+      "details": {
+        "overview": "Developed with Next.js 14 (App Router) and React as the core framework, styled using TailwindCSS for modern responsive design, and enhanced with Framer Motion for smooth animations. Integrated Swiper.js for interactive carousel components and Context API for state management, including multi-language toggle (English, Indonesian, Korean, Japanese). Project data is dynamically loaded from JSON to ensure scalability and easy maintenance. Deployed on Vercel with SEO optimization and responsive design across all devices.",
+        "features": {
+          "Frontend": [
+            "Next.js 14 with App Router for modern React-based development",
+            "React 18 with Server Components for optimized rendering",
+            "TailwindCSS for utility-first, responsive styling",
+            "Framer Motion for smooth page transitions and animations",
+            "Swiper.js for coverflow carousel and image galleries",
+            "Responsive grid-based layout optimized for all screen sizes"
+          ],
+          "Functionality": [
+            "Multi-language support (English, Indonesian, Korean, Japanese) via Context API",
+            "Dynamic content loading from JSON (skills, certifications, projects, experiences)",
+            "Interactive modals for detailed project and experience showcase",
+            "Image zoom gallery with Swiper integration",
+            "Section-based navigation with smooth scroll",
+            "Escape key listener to close modals and galleries",
+            "Accessibility-friendly design with semantic HTML"
+          ],
+          "Performance & SEO": [
+            "Optimized build with Next.js Image and code-splitting",
+            "Meta tags and structured data for SEO",
+            "Lazy loading for images and components",
+            "Responsive and mobile-first design",
+            "Deployment optimized for Vercel platform"
+          ],
+          "“Ease of Management & Scalability”": [
+            "Centralized language and data management via JSON + Context API",
+            "Reusable components for sections, cards, and modals",
+            "Scalable folder structure for easy future extension"
+          ]
+        },
+        "documentation": [
+          "/project/porto/pfstr.png",
+          "/project/porto/pf1.png",
+          "/project/porto/pf2.png",
+          "/project/porto/pf3.png",
+          "/project/porto/pf4.png",
+          "/project/porto/pf5.png",
+          "/project/porto/pf6.png",
+          "/project/porto/pf7.png",
+          "/project/porto/pf8.png",
+          "/project/porto/pf9.png"
+        ]
+      }
+    },
+    {
+      "name": "D’SIBI Camera - Magelang, Indonesia",
+      "image": "/logos/dsibi.png",
+      "year": "2025",
+      "description": "A real-time detection system for SIBI (Indonesian Sign Language) gestures using YOLOv8. Designed to recognize hand gestures A–Z with high accuracy and provide an assistive tool for communication and learning.",
+      "details": {
+        "overview": "D’SIBI Camera is an AI-based application developed for real-time detection of SIBI (Indonesian Sign Language) alphabets A–Z using deep learning methods YOLOv8 and SSD. The system was trained on a dataset of 2600 images (100 per class) collected from multiple participants with varied distances and angles, including dynamic letters (J and Z) extracted from video. Achieving over 90% accuracy, it runs on webcam or smartphone input (via DroidCam), supports automatic video recording with bounding boxes, labels, confidence scores, and FPS overlay. Designed for inclusive communication, educational support in special schools, and research on sign language recognition, the system requires Python 3.8+, 8GB RAM, and GPU acceleration for optimal performance.",
+        "features": {
+          "Detection": [
+            "Real-time detection of SIBI alphabets A–Z with high accuracy",
+            "Bounding boxes around detected hand gestures",
+            "Label display for recognized letters",
+            "Confidence score shown for each prediction",
+            "FPS (frames per second) counter displayed during detection"
+          ],
+          "Controls": [
+            "Press 'S' → save snapshot with label and confidence to captures/ folder",
+            "Press 'Q' → exit program safely, close camera window, and release resources"
+          ],
+          "Recording": [
+            "Automatic video recording from the moment detection starts",
+            "Video saved in records/ directory with sequential naming (record_sibi1.mp4, record_sibi2.mp4, ...)",
+            "Each frame includes bounding box, label, confidence score, and FPS overlay"
+          ],
+          "Dataset": [
+            "2600 images across 26 SIBI classes (A–Z)",
+            "100 images per class collected from 2 participants",
+            "Variations in distance, hand position, and camera angle",
+            "Dynamic letters (J and Z) extracted from video frames"
+          ],
+          "System Requirements": [
+            "Operating System: Windows",
+            "Python 3.8+ with required libraries (OpenCV, Ultralytics YOLO, etc.)",
+            "Minimum RAM: 8 GB",
+            "GPU recommended: NVIDIA for optimal performance"
+          ],
+          "Use Cases": [
+            "Assistive technology for deaf and hard-of-hearing communication",
+            "Learning aid for SIBI in special education schools (SLB)",
+            "Research tool for sign language recognition in Indonesia"
+          ]
+        },
+        "documentation": [
+          "/project/dsibi/ds1.png",
+          "/project/dsibi/ds2.png",
+          "/project/dsibi/ds3.png",
+          "/project/dsibi/ds4.png",
+          "/project/dsibi/ds5.png",
+          "/project/dsibi/ds6.png",
+          "/project/dsibi/ds7.png"
+        ],
+        "license": {
+          "text": "Intellectual Property Rights (IPR)",
+          "image": "/project/dsibi/hkik.png"
+        }
+      }
+    },
+    {
+    "name": "WaafStock Mobile - Magelang, Indonesia",
+    "image": "/logos/wamo.png",
+    "year": "2024",
+    "description": "Android mobile app built with Java and Volley for staff and managers. Supports item requests, approvals, stock monitoring, and transaction history synchronized with WaafStock Server API.",
+    "details": {
+      "overview": "The WaafStock Mobile Application is the Android version of the WaafStock inventory system, developed using Java with Volley API integration. It provides a streamlined and user-friendly interface for both staff and managers to manage stock-related activities directly from their mobile devices. The mobile app is fully integrated with the WaafStock Server API, ensuring real-time synchronization with the web platform. Staff can securely log in, submit item requests, view stock availability, and track the status of their requests, while managers can log in, review request lists, approve or reject requests, and monitor stock levels. The system ensures role-based access, centralized data, and seamless cross-platform usage.",
+      "features": {
+        "Staff Role": [
+          "Secure login using staff credentials validated against the database",
+          "Submit new item requests via a simple and responsive mobile form",
+          "View available inventory stock in real-time",
+          "Check request status: pending, approved, or rejected",
+          "Access personal request history for accountability and transparency"
+        ],
+        "Manager Role": [
+          "Login with manager credentials for secure access",
+          "Review list of pending requests submitted by staff",
+          "Approve or reject requests directly from the mobile app",
+          "Monitor current stock levels and availability",
+          "Access complete request and approval history for auditing purposes"
+        ],
+        "Integration": [
+          "Volley library for efficient REST API communication",
+          "Secure JSON-based response handling with error validation",
+          "Real-time synchronization between mobile and web platforms via WaafStock Server API",
+          "Cross-platform consistency to ensure data integrity across devices"
+        ]
+      },
+      "documentation": [
+        "/project/wamo/wm1.png",
+        "/project/wamo/wm2.png",
+        "/project/wamo/wm3.png",
+        "/project/wamo/wm4.png",
+        "/project/wamo/wm5.png",
+        "/project/wamo/wm6.png",
+        "/project/wamo/wm7.png",
+        "/project/wamo/wm8.png",
+        "/project/wamo/wm9.png"
+      ]
+    }
+  },
+  {
+    "name": "WaafStock Web - Magelang, Indonesia",
+    "image": "/logos/wawe.png",
+    "year": "2024",
+    "description": "Web platform with Manager and Staff roles for inventory and request management. Provides dashboards, charts, and history with REST API integration.",
+    "details": {
+      "overview": "The WaafStock Web Application is designed as the main interface for inventory and request management. Built with HTML, CSS, and JavaScript (Fetch API) and integrated with the WaafStock Server REST API, it offers a responsive and role-based environment for both staff and managers. Staff users can log in to submit requests, check stock, and track personal histories, while managers are equipped with dashboards, approval workflows, and monitoring tools to oversee inventory and staff activity. The platform features data visualization through charts and logs, providing managers with insights into inventory trends and request statistics, while ensuring transparency and accountability across the system.",
+      "features": {
+        "Manager Role": [
+          "Login with manager credentials to access the system securely",
+          "Dashboard with real-time charts showing total requests, approval ratios, and stock trends",
+          "Approve or reject item requests submitted by staff",
+          "View and monitor inventory stock levels (read-only, updates done by Admin)",
+          "Access complete request history, filterable by user, date, or item",
+          "Transparent audit trail for tracking decisions and accountability"
+        ],
+        "Staff Role": [
+          "Secure login with staff credentials",
+          "Submit new item requests through a structured request form",
+          "Check request status in real-time (pending, approved, rejected)",
+          "View available stock for informed requests",
+          "Access personal history of requests and approvals for record keeping"
+        ],
+        "Integration": [
+          "Fetch API for REST API calls with structured JSON responses",
+          "Responsive UI for cross-device usability",
+          "Role-based separation of features (Manager vs. Staff) for security and clarity",
+          "Centralized data management through WaafStock Server API"
+        ]
+      },
+      "documentation": [
+        "/project/wawe/ww1.png",
+        "/project/wawe/ww2.png",
+        "/project/wawe/ww3.png",
+        "/project/wawe/ww4.png",
+        "/project/wawe/ww5.png",
+        "/project/wawe/ww6.png",
+        "/project/wawe/ww7.png",
+        "/project/wawe/ww8.png",
+        "/project/wawe/ww9.png",
+        "/project/wawe/ww10.png"
+      ]
+    }
+  },
+  {
+    "name": "WaafStock Server - Magelang, Indonesia",
+    "image": "/logos/wase.png",
+    "year": "2024",
+    "description": "Backend system built with Node.js and Express providing REST API. Handles authentication, role-based access, inventory management, and request tracking with secure JWT authorization.",
+    "details": {
+      "overview": "The WaafStock Server is the backbone of the entire WaafStock system, built with Node.js and Express, and powered by a centralized MySQL database. It provides a REST API for both the web and mobile applications, enabling secure authentication, inventory management, request handling, and auditing. The server enforces role-based access through JWT authentication, ensuring staff, managers, and administrators only access features appropriate to their roles. Administrators have full control over user accounts, inventory data, and request histories, while managers handle approvals and staff focus on submitting requests. With features such as CRUD operations, history tracking, and request statistics, the server ensures secure, transparent, and efficient inventory management across platforms.",
+      "features": {
+        "Admin Role": [
+          "Full control over the system with centralized administration",
+          "Manage all registered accounts (Manager & Staff) with CRUD operations",
+          "CRUD operations for inventory items (add new items, update stock levels, delete items)",
+          "Access the entire request history across the system",
+          "Generate and view statistics (total requests, approved, pending, rejected)",
+          "Visualized reports with bar charts for decision-making insights"
+        ],
+        "Manager Role": [
+          "Approve or reject requests submitted by staff",
+          "View inventory stock (read-only access, updates handled by Admin)",
+          "Access request history with detailed filtering by user, item, or date",
+          "Dashboard with insights such as total requests and approval ratios",
+          "Maintain transparency through role-specific decision logs"
+        ],
+        "Staff Role": [
+          "Login securely with staff credentials",
+          "Submit item requests to managers for approval",
+          "Track status of requests (pending, approved, rejected)",
+          "Access personal request and approval history anytime"
+        ],
+        "API Services": [
+          "REST API with structured JSON response format",
+          "Role-based authentication & authorization using JWT",
+          "Secure and scalable database with MySQL for centralized stock management",
+          "Cross-platform support, powering both web and mobile clients",
+          "Error handling and secure response validation for reliability"
+        ]
+      },
+      "documentation": [
+        "/project/wase/ws1.png",
+        "/project/wase/ws2.png",
+        "/project/wase/ws3.png",
+        "/project/wase/ws4.png",
+        "/project/wase/ws5.png",
+        "/project/wase/ws6.png"
+      ]
+    }
+  },
+    {
+  "name": "Automatic Curtain Control System - Magelang, Indonesia",
+  "image": "/logos/acur.png",
+  "year": "2023",
+  "description": "Microcontroller-based system for automatic curtain control using ATmega16. Uses light sensor input to drive a servo motor, enabling smart and energy-efficient automation.",
+  "details": {
+    "overview": "The Automatic Curtain Control System is an IoT prototype developed as a smart home automation project. It uses an ATmega16 microcontroller programmed in C to control curtain movement based on ambient light intensity. An LDR (Light Dependent Resistor) sensor continuously detects light levels, and the system automatically opens or closes the curtain by driving a servo motor. This allows natural sunlight optimization during the day and privacy at night, reducing the need for manual curtain operation. The system was designed, simulated, and tested using Proteus before being implemented as a working hardware prototype, showcasing integration between sensors, microcontrollers, and actuators in a real-world environment.",
+    "features": {
+      "Hardware": [
+        "ATmega16 microcontroller as the main controller",
+        "LDR sensor to measure ambient light intensity",
+        "Servo motor connected to the curtain rail for opening and closing",
+        "Voltage regulator circuit to stabilize power supply",
+        "Prototype hardware tested on breadboard and then integrated into demo model"
+      ],
+      "Software": [
+        "C programming for ATmega16 firmware",
+        "Custom logic to interpret LDR readings into servo motor control signals",
+        "Threshold-based system to decide open/close positions automatically",
+        "Simulation and circuit design in Proteus software",
+        "Step-by-step debugging and live demo validation with real hardware"
+      ],
+      "Functional": [
+        "Curtains open automatically when ambient light exceeds a set threshold",
+        "Curtains close automatically when light levels fall below the threshold",
+        "Manual override possible via microcontroller reset or reprogramming",
+        "Energy-saving by maximizing natural lighting during the day",
+        "Low-cost and scalable IoT prototype for smart home applications"
+      ]
+    },
+    "documentation": [
+      "/project/acur/ac1.png",
+      "/project/acur/ac2.png"
+    ]
+  }
+}
+  ]
+},
+
+  "certificationsSection": {
+    "title": "Certifications",
+    "items": [
+      {
+        "name": "Generative AI Certified Professional",
+        "issuer": "Oracle Corporation",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/e/e1/Oracle_Corporation_logo.svg"],
+        "previewImg": "/certificates/previews/oracle-generative-ai.jpg",
+        "pdf": "/certificates/oracle-generative-ai.pdf"
+      },
+      {
+        "name": "Data Science Certified Professional",
+        "issuer": "Oracle Corporation",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/e/e1/Oracle_Corporation_logo.svg"],
+        "previewImg": "/certificates/previews/oracle-datascience.jpg",
+        "pdf": "/certificates/oracle-datascience.pdf"
+      },
+      {
+        "name": "AI Vector Search Certified Professional",
+        "issuer": "Oracle Corporation",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/e/e1/Oracle_Corporation_logo.svg"],
+        "previewImg": "/certificates/previews/oracle-vectorsearch.jpg",
+        "pdf": "/certificates/oracle-vectorsearch.pdf"
+      },
+      {
+        "name": "Fusion AI Agent Studio Foundations",
+        "issuer": "Oracle Corporation",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/e/e1/Oracle_Corporation_logo.svg"],
+        "previewImg": "/certificates/previews/oracle-fusion-ai.jpg",
+        "pdf": "/certificates/oracle-fusion-ai.pdf"
+      },
+      {
+        "name": "Foundational Programming C#",
+        "issuer": "Microsoft x freeCodeCamp",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg", "/logos/freecodecamp.svg"],
+        "previewImg": "/certificates/previews/foundational-programming-csharp.jpg",
+        "pdf": "/certificates/foundational-programming-csharp.pdf"
+      },
+      {
+        "name": "Machine Learning with Python",
+        "issuer": "freeCodeCamp",
+        "year": "2025",
+        "logos": ["/logos/freecodecamp.svg"],
+        "previewImg": "/certificates/previews/machine-learning-python.jpg",
+        "pdf": "/certificates/machine-learning-python.pdf"
+      },
+      {
+        "name": "AI – Powered Performance Ads",
+        "issuer": "Google",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"],
+        "previewImg": "/certificates/previews/google-ai-ads.jpg",
+        "pdf": "/certificates/google-ai-ads.pdf"
+      },
+      {
+        "name": "Generative AI with Diffusion Models",
+        "issuer": "Amazon Web Services",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"],
+        "previewImg": "/certificates/previews/aws-diffusion.jpg",
+        "pdf": "/certificates/aws-diffusion.pdf"
+      },
+      {
+        "name": "Foundational of Prompt Engineering",
+        "issuer": "Amazon Web Services",
+        "year": "2025",
+        "logos": ["https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg"],
+        "previewImg": "/certificates/previews/aws-prompt.jpg",
+        "pdf": "/certificates/aws-prompt.pdf"
+      },
+      {
+        "name": "TOEFL Prediction Test",
+        "issuer": "Tidar University",
+        "year": "2025",
+        "logos": ["/logos/untidar.png"],
+        "previewImg": "/certificates/previews/untidar-toefl.jpg",
+        "pdf": "/certificates/untidar-toefl.pdf"
+      }
+    ]
+  },
+
+  "skillsSection": {
+    "title": "Skills",
+    "categories": [
+      {
+        "category": "Programming Languages",
+        "items": [
+          { "name": "Python", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+          { "name": "C", "icon": "logos/c.png" },
+          { "name": "C++", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
+          { "name": "SQL", "icon": "logos/sql.png" },
+          { "name": "JavaScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+          { "name": "Java", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+          { "name": "Kotlin", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" },
+          { "name": "HTML", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+          { "name": "PHP", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" },
+          { "name": "TypeScript", "icon": "logos/ts.png" },
+          { "name": "JSON", "icon": "logos/json.png" }
+        ]
+      },
+      {
+        "category": "AI Tools",
+        "items": [
+          { "name": "Google Colab", "icon": "https://cdn.simpleicons.org/googlecolab" },
+          { "name": "Jupyter Notebook", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" },
+          { "name": "Roboflow", "icon": "https://cdn.simpleicons.org/roboflow" },
+          { "name": "LabelImg", "icon": "logos/labelimg.png" },
+          { "name": "Tensorflow", "icon": "logos/tensorf.png" },
+          { "name": "Ultralytics", "icon": "logos/ult.png" },
+          { "name": "OpenCV", "icon": "logos/opencv.png" }
+        ]
+      },
+      {
+        "category": "Coding Tools",
+        "items": [
+          { "name": "VS Code", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
+          { "name": "Android Studio", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" },
+          { "name": "Code::Blocks", "icon": "logos/cb.png" },
+          { "name": "Dev C++", "icon": "logos/devc.png" }
+        ]
+      },
+      {
+        "category": "Networking",
+        "items": [
+          { "name": "Cisco Packet Tracer", "icon": "https://cdn.simpleicons.org/cisco" },
+          { "name": "Configuration CLI", "icon": "https://cdn.simpleicons.org/gnometerminal" },
+          { "name": "Troubleshooting", "icon": "logos/trouble.png" },
+          { "name": "Routing", "icon": "logos/router.png" }
+        ]
+      },
+      {
+        "category": "Administration Tools",
+        "items": [
+          { "name": "Microsoft Word", "icon": "logos/msword.png" },
+          { "name": "Microsoft PowerPoint", "icon": "logos/mspp.png" },
+          { "name": "Microsoft Excel", "icon": "logos/msexcel.png" },
+          { "name": "Google Docs", "icon": "https://cdn.simpleicons.org/googledocs" },
+          { "name": "Google Forms", "icon": "https://cdn.simpleicons.org/googleforms" },
+          { "name": "Google Sheets", "icon": "https://cdn.simpleicons.org/googlesheets" }
+        ]
+      },
+      {
+        "category": "Design Tools",
+        "items": [
+          { "name": "CorelDRAW", "icon": "https://cdn.simpleicons.org/coreldraw" },
+          { "name": "Canva", "icon": "logos/canva.png" },
+          { "name": "Adobe Illustrator", "icon": "logos/ai.png" }
+        ]
+      },
+      {
+      "category": "Web Development",
+        "items": [
+          { "name": "React.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+          { "name": "Next.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+          { "name": "Framer Motion", "icon": "logos/framer.png" },
+          { "name": "Swiper", "icon": "logos/swiper.svg" },
+          { "name": "Node.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" }
+        ]
+      },
+      {
+        "category": "Project Manager",
+        "items": [
+          { "name": "Management", "icon": "https://cdn.simpleicons.org/trello" },
+          { "name": "Reporting", "icon": "logos/report.png" },
+          { "name": "Google Calendar", "icon": "logos/gcal.png" }
+        ]
+      },
+      {
+        "category": "Technical Tools",
+        "items": [
+          { "name": "Arduino IDE", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" },
+          { "name": "Microchip Studio", "icon": "logos/microchip.png" }
+        ]
+      }
+    ]
+  },
+
+"contactSection": {
+  "title": "Contact",
+  "subtitle": "Connect with Me",
+  "mediaTitle": "Social Media",
+  "contacts": [
+    {
+      "name": "WhatsApp",
+      "href": "https://wa.me/6289606366195",
+      "icon": "logos/whatsapp.png",
+      "text": "+6289606366195",
+      "hover": "hover:bg-green-500/70"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:feryandrn@gmail.com",
+      "icon": "logos/gmail.png",
+      "text": "feryandrn@gmail.com",
+      "hover": "hover:bg-red-500/70"
+    },
+    {
+      "name": "LinkedIn",
+      "href": "https://id.linkedin.com/in/fery-andrean-5a03252bb",
+      "icon": "logos/linkedin.png",
+      "text": "Fery Andrean",
+      "hover": "hover:bg-blue-600/70"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/FerrrAndrn",
+      "icon": "logos/github.png",
+      "text": "github.com/FerrrAndrn",
+      "hover": "hover:bg-gray-700/70"
+    },
+    {
+      "name": "Instagram",
+      "href": "https://www.instagram.com/fery_andrn",
+      "icon": "logos/ig.png",
+      "text": "@fery_andrn",
+      "hover": "hover:bg-gradient-to-r hover:from-[#9c27b0b3] hover:via-[#e91e63b3] hover:to-[#ff9800b3]"
+    }
+  ],
+  "addressTitle": "Address",
+  "address": "Pandansari Barat Street, Mantenan RT 02 / RW 01, Mertoyudan, Magelang, Central Java, Indonesia (56172)"
+},
+
+  "viewCertificate": "View Certificate",
+  "viewDetails": "View Details"
+}
