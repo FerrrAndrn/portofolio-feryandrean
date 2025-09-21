@@ -26,7 +26,7 @@
 
 "aboutSection": {
   "title": "Tentang Saya",
-  "content": "Lulusan Sarjana Teknik Elektro (konsentrasi Sistem Komputer dan Informasi – Universitas Tidar) dengan spesialisasi di Kecerdasan Buatan, Sistem Komputer, dan Pengembangan Perangkat Lunak. Berpengalaman dalam merancang dan mengimplementasikan sistem berbasis Deep Learning, mengembangkan aplikasi web dan mobile, serta mengelola basis data. Terampil dalam pemecahan masalah, kerja tim, dan kemampuan beradaptasi untuk menciptakan solusi yang efisien dan inovatif. Memiliki passion dalam memanfaatkan AI dan teknologi terkini untuk membangun produk yang berdampak, menghubungkan dunia teknik dengan aplikasi nyata. Senantiasa mencari peluang untuk berkembang, berkolaborasi, dan berkontribusi pada proyek-proyek inovatif."
+  "content": "Sarjana Teknik Elektro (konsentrasi Sistem Komputer dan Informasi – Universitas Tidar) dengan spesialisasi Pengembangan Web dan Perangkat Lunak, Kecerdasan Buatan, dan Sistem Komputer. Berpengalaman dalam membangun aplikasi web dan seluler, merancang dan mengimplementasikan sistem berbasis pembelajaran mendalam, serta mengelola basis data. Terampil dalam pemecahan masalah, kerja sama tim, dan adaptabilitas untuk menciptakan solusi yang efisien dan inovatif. Memiliki semangat untuk terus belajar dan menerapkan teknologi terkini untuk memecahkan tantangan dunia nyata."
 },
 
  "experienceSection": {
@@ -269,7 +269,7 @@
   "items": [
     {
       "name": "Portfolio Web - Magelang, Indonesia",
-      "image": "/logos/porto.png",
+      "image": "/logos/fav.png",
       "year": "2025",
       "description": "Situs portofolio pribadi yang dirancang sebagai CV digital dan showcase proyek. Menampilkan profil, keahlian, sertifikasi, dan proyek dengan komponen interaktif dan desain modern.",
 "details": {
@@ -654,6 +654,16 @@
         ]
       },
       {
+      "category": "Pengembangan Web",
+        "items": [
+          { "name": "React.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+          { "name": "Next.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+          { "name": "Framer Motion", "icon": "logos/framer.png" },
+          { "name": "Swiper", "icon": "logos/swiper.svg" },
+          { "name": "Node.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" }
+        ]
+      },
+      {
         "category": "Perangkat AI",
         "items": [
           { "name": "Google Colab", "icon": "https://cdn.simpleicons.org/googlecolab" },
@@ -700,16 +710,6 @@
           { "name": "CorelDRAW", "icon": "https://cdn.simpleicons.org/coreldraw" },
           { "name": "Canva", "icon": "logos/canva.png" },
           { "name": "Adobe Illustrator", "icon": "logos/ai.png" }
-        ]
-      },
-      {
-      "category": "Pengembangan Web",
-        "items": [
-          { "name": "React.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-          { "name": "Next.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
-          { "name": "Framer Motion", "icon": "logos/framer.png" },
-          { "name": "Swiper", "icon": "logos/swiper.svg" },
-          { "name": "Node.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" }
         ]
       },
       {

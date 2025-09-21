@@ -26,7 +26,7 @@
 
   "aboutSection": {
     "title": "자기소개",
-    "content": "전기공학 학사 (컴퓨터 및 정보 시스템 전공 – 티다르 대학교)로서 인공지능, 컴퓨터 시스템, 소프트웨어 개발을 전문으로 합니다. 딥러닝 기반 시스템 설계 및 구현, 웹 및 모바일 애플리케이션 개발, 데이터베이스 관리 경험이 있습니다. 문제 해결, 팀워크, 적응력에 능숙하여 효율적이고 혁신적인 솔루션을 만들어 냅니다. AI와 신기술을 활용해 엔지니어링과 실제 응용 사이의 격차를 메우는 영향력 있는 제품을 만드는 데 열정을 가지고 있습니다. 끊임없이 성장하고 협력하며 혁신적인 프로젝트에 기여할 기회를 찾고 있습니다."
+    "content": "티다르 대학교(컴퓨터 및 정보 시스템 전공) 전기공학 학사로서 소프트웨어 개발, 인공지능, 컴퓨터 시스템을 전문으로 하고 있습니다. 웹 및 모바일 애플리케이션을 개발하고, 딥러닝 기반 시스템을 설계·구현하며, 데이터베이스를 관리한 경험이 있습니다. 문제 해결, 팀워크, 적응력에 강점을 가지고 있으며 효율적이고 혁신적인 솔루션을 창출할 수 있습니다. 최신 기술을 지속적으로 학습하고 실제 문제 해결에 적용하는 데 열정을 가지고 있습니다."
   },
 
   "experienceSection": {
@@ -269,7 +269,7 @@
   "items": [
     {
       "name": "포트폴리오 웹 - 마겔랑, 인도네시아",
-      "image": "/logos/porto.png",
+      "image": "/logos/fav.png",
       "year": "2025",
       "description": "디지털 이력서 및 프로젝트 쇼케이스로 설계된 개인 포트폴리오 웹사이트. 프로필, 기술, 자격증 및 프로젝트를 인터랙티브 컴포넌트와 현대적인 디자인으로 강조합니다.",
       "details": {
@@ -654,6 +654,16 @@
       ]
     },
     {
+      "category": "웹 개발",
+      "items": [
+        { "name": "React.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+        { "name": "Next.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+        { "name": "Framer Motion", "icon": "logos/framer.png" },
+        { "name": "Swiper", "icon": "logos/swiper.svg" },
+        { "name": "Node.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" }
+      ]
+    },
+    {
       "category": "AI 도구",
       "items": [
         { "name": "Google Colab", "icon": "https://cdn.simpleicons.org/googlecolab" },
@@ -700,16 +710,6 @@
         { "name": "CorelDRAW", "icon": "https://cdn.simpleicons.org/coreldraw" },
         { "name": "Canva", "icon": "logos/canva.png" },
         { "name": "Adobe Illustrator", "icon": "logos/ai.png" }
-      ]
-    },
-    {
-      "category": "웹 개발",
-      "items": [
-        { "name": "React.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-        { "name": "Next.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
-        { "name": "Framer Motion", "icon": "logos/framer.png" },
-        { "name": "Swiper", "icon": "logos/swiper.svg" },
-        { "name": "Node.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" }
       ]
     },
     {

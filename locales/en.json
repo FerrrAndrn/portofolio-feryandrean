@@ -26,8 +26,8 @@
 
   "aboutSection": {
   "title": "About Me",
-  "content": "Bachelor of Electrical Engineering (Computer and Information Systems concentration – Tidar University) specializing in Artificial Intelligence, Computer Systems, and Software Development. Experienced in designing and implementing Deep Learning–based systems, developing web and mobile applications, and managing databases. Skilled in problem-solving, teamwork, and adaptability to create efficient and innovative solutions. Passionate about leveraging AI and emerging technologies to build impactful products that bridge the gap between engineering and real-world applications. Continuously seeking opportunities to grow, collaborate, and contribute to innovative projects."
-},
+  "content": "Bachelor of Electrical Engineering (Computer and Information Systems concentration – Universitas Tidar) specializing in Web and Software Development, Artificial Intelligence, and Computer Systems. Experienced in building web and mobile applications, designing and implementing deep learning–based systems, and managing databases. Skilled in problem-solving, teamwork, and adaptability to create efficient and innovative solutions. Passionate about continuous learning and applying emerging technologies to solve real-world challenges."
+  },
 
  "experienceSection": {
   "title": "Experience",
@@ -261,7 +261,7 @@
   "items": [
     {
       "name": "Portfolio Web - Magelang, Indonesia",
-      "image": "/logos/porto.png",
+      "image": "/logos/fav.png",
       "year": "2025",
       "description": "A personal portfolio website designed as a digital CV and project showcase. It highlights profile, skills, certifications, and projects with interactive components and a modern design.",
       "details": {
@@ -646,6 +646,16 @@
         ]
       },
       {
+      "category": "Web Development",
+        "items": [
+          { "name": "React.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+          { "name": "Next.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
+          { "name": "Framer Motion", "icon": "logos/framer.png" },
+          { "name": "Swiper", "icon": "logos/swiper.svg" },
+          { "name": "Node.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" }
+        ]
+      },
+      {
         "category": "AI Tools",
         "items": [
           { "name": "Google Colab", "icon": "https://cdn.simpleicons.org/googlecolab" },
@@ -692,16 +702,6 @@
           { "name": "CorelDRAW", "icon": "https://cdn.simpleicons.org/coreldraw" },
           { "name": "Canva", "icon": "logos/canva.png" },
           { "name": "Adobe Illustrator", "icon": "logos/ai.png" }
-        ]
-      },
-      {
-      "category": "Web Development",
-        "items": [
-          { "name": "React.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-          { "name": "Next.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
-          { "name": "Framer Motion", "icon": "logos/framer.png" },
-          { "name": "Swiper", "icon": "logos/swiper.svg" },
-          { "name": "Node.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" }
         ]
       },
       {
